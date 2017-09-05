@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 49999e95412fbda45a9e2147f878c7fe
+timeCreated: 1502596712
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_back1
+    100002: Bone_back10
+    100004: Bone_back10_end
+    100006: Bone_back2
+    100008: Bone_back3
+    100010: Bone_back4
+    100012: Bone_back5
+    100014: Bone_back6
+    100016: Bone_back7
+    100018: Bone_back8
+    100020: Bone_back9
+    100022: Bone_front1
+    100024: Bone_front2
+    100026: Bone_front3
+    100028: Bone_front4
+    100030: Bone_front5
+    100032: Bone_front6
+    100034: Bone_front6_end
+    100036: Bone_headleft1
+    100038: Bone_headleft2
+    100040: Bone_headleft2_end
+    100042: Bone_headright1
+    100044: Bone_headright2
+    100046: Bone_headright2_end
+    100048: Bone_lefthand1
+    100050: Bone_lefthand2
+    100052: Bone_lefthand3
+    100054: Bone_lefthand_left
+    100056: Bone_lefthand_left_end
+    100058: Bone_lefthand_right
+    100060: Bone_lefthand_right_end
+    100062: Bone_leftwing1
+    100064: Bone_leftwing2
+    100066: Bone_leftwing3
+    100068: Bone_leftwing4
+    100070: Bone_leftwing5
+    100072: Bone_leftwing6
+    100074: Bone_leftwing6_end
+    100076: Bone_leftwing7
+    100078: Bone_leftwing7_end
+    100080: Bone_legleft1
+    100082: Bone_legleft2
+    100084: Bone_legleft3
+    100086: Bone_legleftfoot1
+    100088: Bone_legleftfoot_left1
+    100090: Bone_legleftfoot_left2
+    100092: Bone_legleftfoot_left2_end
+    100094: Bone_legleftfoot_right1
+    100096: Bone_legleftfoot_right2
+    100098: Bone_legleftfoot_right2_end
+    100100: Bone_legright1
+    100102: Bone_legright2
+    100104: Bone_legright3
+    100106: Bone_legrightfoot1
+    100108: Bone_legrightfoot_left1
+    100110: Bone_legrightfoot_left2
+    100112: Bone_legrightfoot_left2_end
+    100114: Bone_legrightfoot_right1
+    100116: Bone_legrightfoot_right2
+    100118: Bone_legrightfoot_right2_end
+    100120: Bone_righthand1
+    100122: Bone_righthand2
+    100124: Bone_righthand3
+    100126: Bone_righthand_left
+    100128: Bone_righthand_left_end
+    100130: Bone_righthand_right
+    100132: Bone_righthand_right_end
+    100134: Bone_rightwing1
+    100136: Bone_rightwing2
+    100138: Bone_rightwing3
+    100140: Bone_rightwing4
+    100142: Bone_rightwing5
+    100144: Bone_rightwing6
+    100146: Bone_rightwing7
+    100148: Bone_rightwing7_end
+    100150: Bone_towingsleft
+    100152: Bone_towingsright
+    100154: cadnav
+    100156: //RootNode
+    100158: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: Bone_back1
+    400002: Bone_back10
+    400004: Bone_back10_end
+    400006: Bone_back2
+    400008: Bone_back3
+    400010: Bone_back4
+    400012: Bone_back5
+    400014: Bone_back6
+    400016: Bone_back7
+    400018: Bone_back8
+    400020: Bone_back9
+    400022: Bone_front1
+    400024: Bone_front2
+    400026: Bone_front3
+    400028: Bone_front4
+    400030: Bone_front5
+    400032: Bone_front6
+    400034: Bone_front6_end
+    400036: Bone_headleft1
+    400038: Bone_headleft2
+    400040: Bone_headleft2_end
+    400042: Bone_headright1
+    400044: Bone_headright2
+    400046: Bone_headright2_end
+    400048: Bone_lefthand1
+    400050: Bone_lefthand2
+    400052: Bone_lefthand3
+    400054: Bone_lefthand_left
+    400056: Bone_lefthand_left_end
+    400058: Bone_lefthand_right
+    400060: Bone_lefthand_right_end
+    400062: Bone_leftwing1
+    400064: Bone_leftwing2
+    400066: Bone_leftwing3
+    400068: Bone_leftwing4
+    400070: Bone_leftwing5
+    400072: Bone_leftwing6
+    400074: Bone_leftwing6_end
+    400076: Bone_leftwing7
+    400078: Bone_leftwing7_end
+    400080: Bone_legleft1
+    400082: Bone_legleft2
+    400084: Bone_legleft3
+    400086: Bone_legleftfoot1
+    400088: Bone_legleftfoot_left1
+    400090: Bone_legleftfoot_left2
+    400092: Bone_legleftfoot_left2_end
+    400094: Bone_legleftfoot_right1
+    400096: Bone_legleftfoot_right2
+    400098: Bone_legleftfoot_right2_end
+    400100: Bone_legright1
+    400102: Bone_legright2
+    400104: Bone_legright3
+    400106: Bone_legrightfoot1
+    400108: Bone_legrightfoot_left1
+    400110: Bone_legrightfoot_left2
+    400112: Bone_legrightfoot_left2_end
+    400114: Bone_legrightfoot_right1
+    400116: Bone_legrightfoot_right2
+    400118: Bone_legrightfoot_right2_end
+    400120: Bone_righthand1
+    400122: Bone_righthand2
+    400124: Bone_righthand3
+    400126: Bone_righthand_left
+    400128: Bone_righthand_left_end
+    400130: Bone_righthand_right
+    400132: Bone_righthand_right_end
+    400134: Bone_rightwing1
+    400136: Bone_rightwing2
+    400138: Bone_rightwing3
+    400140: Bone_rightwing4
+    400142: Bone_rightwing5
+    400144: Bone_rightwing6
+    400146: Bone_rightwing7
+    400148: Bone_rightwing7_end
+    400150: Bone_towingsleft
+    400152: Bone_towingsright
+    400154: cadnav
+    400156: //RootNode
+    400158: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    4300000: cadnav
+    9500000: //RootNode
+    13700000: cadnav
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: bf77162b3bf1319428342562b568692f
+timeCreated: 1502150158
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_back1
+    100002: Bone_back2
+    100004: Bone_front1
+    100006: Bone_front2
+    100008: Bone_front3
+    100010: Bone_handleft
+    100012: Bone_handleft2
+    100014: Bone_handleft3
+    100016: Bone_handleft3_end
+    100018: Bone_handright1
+    100020: Bone_handright2
+    100022: Bone_handright3
+    100024: Bone_handright3_end
+    100026: Bone_head
+    100028: Bone_head_end
+    100030: Bone_legleft1
+    100032: Bone_legleft2
+    100034: Bone_legleft2_end
+    100036: Bone_legright1
+    100038: Bone_legright2
+    100040: Bone_legright2_end
+    100042: //RootNode
+    100044: Rigged_Elements PENGU Penguin Geometry_Grp polySurface15
+    100046: Rigged_Elements PENGU Penguin Geometry_Grp pSphere11
+    100048: Rigged_Elements PENGU Penguin Geometry_Grp pSphere12
+    100050: Shapes Rigged_Elements PENGU L_Smile
+    100052: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: Bone_back1
+    400002: Bone_back2
+    400004: Bone_front1
+    400006: Bone_front2
+    400008: Bone_front3
+    400010: Bone_handleft
+    400012: Bone_handleft2
+    400014: Bone_handleft3
+    400016: Bone_handleft3_end
+    400018: Bone_handright1
+    400020: Bone_handright2
+    400022: Bone_handright3
+    400024: Bone_handright3_end
+    400026: Bone_head
+    400028: Bone_head_end
+    400030: Bone_legleft1
+    400032: Bone_legleft2
+    400034: Bone_legleft2_end
+    400036: Bone_legright1
+    400038: Bone_legright2
+    400040: Bone_legright2_end
+    400042: //RootNode
+    400044: Rigged_Elements PENGU Penguin Geometry_Grp polySurface15
+    400046: Rigged_Elements PENGU Penguin Geometry_Grp pSphere11
+    400048: Rigged_Elements PENGU Penguin Geometry_Grp pSphere12
+    400050: Shapes Rigged_Elements PENGU L_Smile
+    400052: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    4300000: Rigged_Elements PENGU Penguin Geometry_Grp pSphere11
+    4300002: Rigged_Elements PENGU Penguin Geometry_Grp polySurface15
+    4300004: Shapes Rigged_Elements PENGU L_Smile
+    4300006: Rigged_Elements PENGU Penguin Geometry_Grp pSphere12
+    9500000: //RootNode
+    13700000: Rigged_Elements PENGU Penguin Geometry_Grp polySurface15
+    13700002: Rigged_Elements PENGU Penguin Geometry_Grp pSphere11
+    13700004: Rigged_Elements PENGU Penguin Geometry_Grp pSphere12
+    13700006: Shapes Rigged_Elements PENGU L_Smile
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

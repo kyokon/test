@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: a2469deda3fc26b4eada3cac891c3a4a
+timeCreated: 1500941833
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone-earL1
+    100002: Bone-earL1_end
+    100004: Bone-earR1
+    100006: Bone-earR1_end
+    100008: Bone-handL1
+    100010: Bone-handL2
+    100012: Bone-handL3
+    100014: Bone-handL3_end
+    100016: Bone-handR1
+    100018: Bone-handR2
+    100020: Bone-handR3
+    100022: Bone-handR3_end
+    100024: Bone-legL1
+    100026: Bone-legL2
+    100028: Bone-legL3
+    100030: Bone-legL4
+    100032: Bone-legL4_end
+    100034: Bone-legR1
+    100036: Bone-legR2
+    100038: Bone-legR3
+    100040: Bone-legR4
+    100042: Bone-legR4_end
+    100044: Bone-lootback1
+    100046: Bone-lootback2
+    100048: Bone-lootback3
+    100050: Bone-lootback3_end
+    100052: Bone-lootfront1
+    100054: Bone-lootfront2
+    100056: Bone-lootfront3
+    100058: Bone-lootfront4
+    100060: Bone-loothead1
+    100062: Bone-lootnose1
+    100064: Bone-lootnose2
+    100066: Bone-lootnose2_end
+    100068: Bone-toearL1
+    100070: Bone-toearR1
+    100072: Bone-tohand1
+    100074: Camera
+    100076: Lamp
+    100078: //RootNode
+    100080: Tuzi
+    100082: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: Bone-earL1
+    400002: Bone-earL1_end
+    400004: Bone-earR1
+    400006: Bone-earR1_end
+    400008: Bone-handL1
+    400010: Bone-handL2
+    400012: Bone-handL3
+    400014: Bone-handL3_end
+    400016: Bone-handR1
+    400018: Bone-handR2
+    400020: Bone-handR3
+    400022: Bone-handR3_end
+    400024: Bone-legL1
+    400026: Bone-legL2
+    400028: Bone-legL3
+    400030: Bone-legL4
+    400032: Bone-legL4_end
+    400034: Bone-legR1
+    400036: Bone-legR2
+    400038: Bone-legR3
+    400040: Bone-legR4
+    400042: Bone-legR4_end
+    400044: Bone-lootback1
+    400046: Bone-lootback2
+    400048: Bone-lootback3
+    400050: Bone-lootback3_end
+    400052: Bone-lootfront1
+    400054: Bone-lootfront2
+    400056: Bone-lootfront3
+    400058: Bone-lootfront4
+    400060: Bone-loothead1
+    400062: Bone-lootnose1
+    400064: Bone-lootnose2
+    400066: Bone-lootnose2_end
+    400068: Bone-toearL1
+    400070: Bone-toearR1
+    400072: Bone-tohand1
+    400074: Camera
+    400076: Lamp
+    400078: //RootNode
+    400080: Tuzi
+    400082: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    4300000: Tuzi
+    9500000: //RootNode
+    13700000: Tuzi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

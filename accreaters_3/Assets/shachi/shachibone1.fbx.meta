@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: dbe75c63b9fc85646a522c3654f4f75e
+timeCreated: 1502153855
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_back1
+    100002: Bone_back2
+    100004: Bone_back3
+    100006: Bone_back4
+    100008: Bone_back5
+    100010: Bone_back6
+    100012: Bone_back6_end
+    100014: Bone_front1
+    100016: Bone_front2
+    100018: Bone_front2_end
+    100020: Bone_lefthand1
+    100022: Bone_lefthand2
+    100024: Bone_lefthand3
+    100026: Bone_lefthand3_end
+    100028: Bone_righthand1
+    100030: Bone_righthand2
+    100032: Bone_righthand3
+    100034: Bone_righthand3_end
+    100036: Bone_top1
+    100038: Bone_top2
+    100040: Bone_top2_end
+    100042: Camera
+    100044: KWHA
+    100046: KWHABODY
+    100048: KWHABODY_MeshPart0
+    100050: KWHABODY_MeshPart1
+    100052: KWHAEYE1
+    100054: KWHAEYE2
+    100056: //RootNode
+    100058: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400000: Bone_back1
+    400002: Bone_back2
+    400004: Bone_back3
+    400006: Bone_back4
+    400008: Bone_back5
+    400010: Bone_back6
+    400012: Bone_back6_end
+    400014: Bone_front1
+    400016: Bone_front2
+    400018: Bone_front2_end
+    400020: Bone_lefthand1
+    400022: Bone_lefthand2
+    400024: Bone_lefthand3
+    400026: Bone_lefthand3_end
+    400028: Bone_righthand1
+    400030: Bone_righthand2
+    400032: Bone_righthand3
+    400034: Bone_righthand3_end
+    400036: Bone_top1
+    400038: Bone_top2
+    400040: Bone_top2_end
+    400042: Camera
+    400044: KWHA
+    400046: KWHABODY
+    400048: KWHABODY_MeshPart0
+    400050: KWHABODY_MeshPart1
+    400052: KWHAEYE1
+    400054: KWHAEYE2
+    400056: //RootNode
+    400058: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    4300000: KWHABODY_MeshPart0
+    4300002: KWHABODY_MeshPart1
+    4300004: KWHAEYE2
+    4300006: KWHAEYE1
+    9500000: //RootNode
+    13700000: KWHABODY_MeshPart0
+    13700002: KWHABODY_MeshPart1
+    13700004: KWHAEYE1
+    13700006: KWHAEYE2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
