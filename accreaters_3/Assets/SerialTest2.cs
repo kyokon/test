@@ -28,16 +28,22 @@ public class SerialTest2 : MonoBehaviour {
 		serial.Write ("1");
 		//serial_flag = 0;
 		Sensornumber = 0;
+		number = 0;
 	}
 
 	void Update()
 	{
 
-
-
 		getValue_biglimit = behaviour_key.getBiglimit ();
 
-		number = double.Parse(serial.GetData ());
+		if (serial.GetData () == null) {
+			number = 1.0;
+		} else {
+			number = double.Parse (serial.GetData ());
+		}
+
+		//number = double.Parse("12345");
+		//number = double.Parse();
 		//SensorReading();//圧力センサーの値をとってくる
 		//SensorAnimation(number, Sensornumber);
 		Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
