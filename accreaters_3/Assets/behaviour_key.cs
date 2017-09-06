@@ -25,7 +25,7 @@ public class behaviour_key : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-			/*try{
+		/*try{
 				if (Input.GetKey(KeyCode.Z)){
 					animator.Play ("Idle");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
@@ -68,7 +68,7 @@ public class behaviour_key : MonoBehaviour {
 
 	}
 
-/*	private void toAdults(){
+	/*	private void toAdults(){
 		if (Input.GetKey (KeyCode.T) && biglimit == 0) {
 			this.transform.localScale = new Vector3 (
 				gameObject.transform.localScale.x + 0.015f,

@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialTest2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\animationOnOff.cs">
     <Files>
-      <File FileName="Assets\SerialTest2.cs" Line="54" Column="2" />
-      <File FileName="Assets\SerialTest3.cs" Line="33" Column="15" />
-      <File FileName="Assets\dolphins\voicescript.cs" Line="1" Column="1" />
+      <File FileName="Assets\SerialTest2.cs" Line="43" Column="3" />
+      <File FileName="Assets\SerialTest3.cs" Line="169" Column="2" />
       <File FileName="Assets\IkimonoSentaku.cs" Line="1" Column="1" />
-      <File FileName="Assets\CameraRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets\Sceneback.cs" Line="1" Column="1" />
-      <File FileName="Assets\behaviour_key.cs" Line="23" Column="3" NotebookId="1" />
+      <File FileName="Assets\CameraRotate.cs" Line="15" Column="36" />
+      <File FileName="Assets\Sceneback.cs" Line="20" Column="27" />
+      <File FileName="Assets\SerialTest.cs" Line="20" Column="15" />
+      <File FileName="Assets\behaviour_key.cs" Line="10" Column="1" />
+      <File FileName="Assets\voicescript.cs" Line="50" Column="1" />
+      <File FileName="Assets\animationOnOff.cs" Line="20" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -71,10 +71,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="ikimono_serial">
- <HintPath>C:/Users/student/Desktop/授業関連/その他/IVRC/M3_0829/accreaters_3/Assets/Plugins/ikimono_serial.dll</HintPath>
+ <HintPath>C:/Users/student/Desktop/test/accreaters_3/Assets/Plugins/ikimono_serial.dll</HintPath>
  </Reference>
  <Reference Include="SerialLib">
- <HintPath>C:/Users/student/Desktop/授業関連/その他/IVRC/M3_0829/accreaters_3/Assets/Plugins 1/SerialLib.dll</HintPath>
+ <HintPath>C:/Users/student/Desktop/test/accreaters_3/Assets/Plugins 1/SerialLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

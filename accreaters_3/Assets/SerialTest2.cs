@@ -8,6 +8,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
+
 public class SerialTest2 : MonoBehaviour {
 	public static SerialLib.MyClass serial;
 	Animator animator;
@@ -15,6 +16,7 @@ public class SerialTest2 : MonoBehaviour {
 	private int rand, rand2;
 	private double number;
 	int getValue_biglimit;
+	int Sensornumber;
 	//int serial_flag;
 
 	void Start()
@@ -25,34 +27,34 @@ public class SerialTest2 : MonoBehaviour {
 		anime_flag = 0;
 		serial.Write ("1");
 		//serial_flag = 0;
+		Sensornumber = 0;
 	}
 
 	void Update()
 	{
-		if (Input.GetKeyDown (KeyCode.N)) {//tamago
-				animator.Play ("hit");
-				serial.Write ("1");
-				//serial_flag = 1;
 
-		} else if (Input.GetKeyDown (KeyCode.O)) {//tamago
-				serial.Write ("0");
-				//serial_flag = 1;
-
-		} else if (Input.GetKeyDown (KeyCode.V)) {//tamago
-				serial.Write ("2");
-				//serial_flag = 1;
-		}
 
 
 		getValue_biglimit = behaviour_key.getBiglimit ();
-		number = double.Parse(serial.GetData ());//圧力センサーの値をとってくる
-		//SensorAnimation(number);
-		//Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
+
+		number = double.Parse(serial.GetData ());
+		//SensorReading();//圧力センサーの値をとってくる
+		//SensorAnimation(number, Sensornumber);
+		Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
 		trytoKey();
 		toAdults ();
 	}
 
-	void SensorAnimation(double number){
+	void SensorReading(){
+		//serial.Write ("r");
+		number = double.Parse(serial.GetData ());
+		Debug.Log (number);
+		//serial.Write ("t");
+		//Sensornumber =  int.Parse(serial.GetData ());
+		//Debug.Log (number + 'p' + Sensornumber);//コンソールに常に読み込んだ圧力センサーの値を表示
+	}
+
+	void SensorAnimation(double number, int Sensornumber){
 		if (number > 500 && number <1000) {//圧力の強さによってアニメーションを切り替える
 			if (anime_flag == 0) {
 				FlagsOfAnimation_Start ();
@@ -148,28 +150,32 @@ public class SerialTest2 : MonoBehaviour {
 		try{
 			if (Input.GetKey(KeyCode.Z)){
 				animator.Play ("Idle");
+				//serial.Write ("2");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("2");}
 			}
 			if (Input.GetKey(KeyCode.X)){
 				animator.Play ("walk");
+				//serial.Write ("3");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				//if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("3");}
 			}
 			if (Input.GetKey(KeyCode.C)){
 				animator.Play ("run");
+				//serial.Write ("4");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				//if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("4");}
 			}
 			if (Input.GetKey(KeyCode.V)){
 				animator.Play ("hit");
-				serial.Write ("2");
+				//serial.Write ("5");
+				//serial.Write ("2");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				//if(getValue_biglimit == 1){serial.Write ("10");}else{serial.Write ("5");}
 			}
 			if (Input.GetKey(KeyCode.B)){
 				animator.Play ("sound");
-
+				//serial.Write ("6");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				//if(getValue_biglimit == 1){serial.Write ("11");}else{serial.Write ("6");}
 			}

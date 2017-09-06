@@ -13,7 +13,6 @@ public class SerialTest3 : MonoBehaviour {
 	private double number;
 	int getValue_biglimit;
 
-
 	void Start()
 	{
 		animator = GetComponent<Animator> ();
