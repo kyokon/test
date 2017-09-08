@@ -207,6 +207,7 @@ public class SerialTest2 : MonoBehaviour {
 				gameObject.transform.localScale.z + 0.015f
 			);
 			getValue_biglimit = 1;
+			serial.Write ("a");
 		}
 	}
 }

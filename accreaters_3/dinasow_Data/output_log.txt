@@ -7,101 +7,3753 @@ Direct3D:
     VRAM:     2100 MB
     Driver:   20.19.15.4531
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\ikimono_serial.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\ikimono_serial.dll into Unity Child Domain
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\SerialLib.dll (this message is harmless)
-Loading C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\SerialLib.dll into Unity Child Domain
-- Completed reload, in  0.456 seconds
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\student\Desktop\授業関連\その他\IVRC\M3_0829\accreaters_3\dinasow_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\ikimono_serial.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\ikimono_serial.dll into Unity Child Domain
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\SerialLib.dll (this message is harmless)
+Loading C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\SerialLib.dll into Unity Child Domain
+- Completed reload, in  0.312 seconds
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\student\Desktop\test\accreaters_3\dinasow_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 48Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.305355 ms
+UnloadTime: 3.561038 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 236c -> priority: 1 
-  Thread -> id: 27ac -> priority: 1 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.320040 ms
+  Thread -> id: 1014 -> priority: 1 
+  Thread -> id: e88 -> priority: 1 
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.777242 ms
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 374.
-Total: 0.259858 ms (FindLiveObjects: 0.047586 ms CreateObjectMapping: 0.031257 ms MarkObjects: 0.165152 ms  DeleteObjects: 0.014462 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 388.
+Total: 1.196187 ms (FindLiveObjects: 0.083042 ms CreateObjectMapping: 0.086774 ms MarkObjects: 0.246328 ms  DeleteObjects: 0.778641 ms)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Starta
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-End
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-End
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-End
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-End
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
 
-Start
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: s
+  at System.Double.Parse (System.String s, NumberStyles style, IFormatProvider provider) [0x00000] in <filename unknown>:0 
+  at System.Double.Parse (System.String s) [0x00000] in <filename unknown>:0 
+  at SerialTest3.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException: Object reference not set to an instance of an object
+  at SerialLib.MyClass.ThreadEnd () [0x00000] in <filename unknown>:0 
+  at SerialTest3.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 1.506898 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 255.
+Total: 0.801035 ms (FindLiveObjects: 0.057383 ms CreateObjectMapping: 0.073245 ms MarkObjects: 0.211805 ms  DeleteObjects: 0.457667 ms)
 
