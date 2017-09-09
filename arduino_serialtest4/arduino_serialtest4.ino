@@ -77,6 +77,7 @@ void setup() {
   flagForAdult = 0;//大人になっているかどうか
   hantei = 0;
   mode = 0;
+
 }
 
 int i = 0;
@@ -85,7 +86,6 @@ int i = 0;
 //もともとの振動子用関数、5秒おきに別のが動く
 void normalMode(){
     flagMoving = 1;
-  
     Set_PWM();
     
      digitalWrite(vibPin[0], HIGH);
@@ -383,7 +383,7 @@ void setPress(){
         Serial.println(hanteiNumber);//最も値が高かった圧力センサーの番号
      }
     
-   //Serial.print(fg[j]+',');
+   Serial.println(hantei);
  //}
  //全ての圧力センサーの値を確認する場合は以下をコメントからはずす
  /*Serial.println(fg[0]);
@@ -401,7 +401,7 @@ void setPress(){
 
 //圧力センサーによって振動子を動かすための関数
 void ChangemodePress(){
-      if(hantei > 1000 && hantei < 8000 && flagMoving == 0){
+      if(hantei > 1500 && hantei < 8000 && flagMoving == 0){
       
         switch(flagForAdult){
             case 1:
@@ -483,7 +483,7 @@ void loop() {
 
    
 if(flagForPress == 0){//Unityからの信号で、振動子を動かすものが特になければ圧力センサーの値によって振動させる
-  ChangemodePress();
+  //ChangemodePress();
   flagForPress = 1; 
 }
       

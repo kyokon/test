@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO.Ports;
+using System.Threading;
 using System.Runtime.InteropServices;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -17,6 +18,7 @@ public class SerialTest2 : MonoBehaviour {
 	private double number;
 	int getValue_biglimit;
 	int Sensornumber;
+	int Flags_SensorRW;
 
 	public AudioClip SE, SE2, SE3, SE4, SE5, SE6;
 	//int serial_flag;
@@ -34,31 +36,37 @@ public class SerialTest2 : MonoBehaviour {
 		rand3 = 0;
 		rand4 = 0;
 		getValue_biglimit = 0;
+		Flags_SensorRW = 0;
 	}
 
 	void Update()
 	{
 
-		getValue_biglimit = behaviour_key.getBiglimit ();
-		SensorReading();//圧力センサーの値をとってくる
-
-		SensorAnimation (number);
-
-		trytoKey();
-		toAdults ();
+		//getValue_biglimit = behaviour_key.getBiglimit ();
+		if (Flags_SensorRW == 0) {
+            serial.Write ("3");
+			//SensorReading ();//圧力センサーの値をとってくる
+		} else {
+            
+			//SensorAnimation2(number);
+		}
+		//trytoKey();
+		//toAdults ();
 	}
 
 	void SensorReading(){
-		serial.Write ("r");
+		//serial.Write ("r");
+		Debug.Log (serial.GetData ());
+
 		if (serial.GetData () == null) {
 			number = 1.0;
 		} else {
 			number = double.Parse (serial.GetData ());
-			Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
 		}
+		Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
 
-		/*serial.Write ("t");
-		if (serial.GetData () == null) {
+		/*serial.Write ("t");*/
+		/*if (serial.GetData () == null) {
 			Sensornumber = 1;
 		} else {
 			Sensornumber = int.Parse (serial.GetData ());
@@ -66,44 +74,80 @@ public class SerialTest2 : MonoBehaviour {
 
 	}
 
+void SensorAnimation2(double number){
+		Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+    try{
+			serial.Write ("3");
+    }catch{
+        Debug.Log (number);
+        }
+			animator.Play ("walk");
+			Sounder (4);
+			FlagsOfAnimation_End ();
+
+	DelayMethod (2);
+	Flags_SensorRW = 0;
+}
+
 	void SensorAnimation(double number){
-		if (number > 1500 && number <3000) {//圧力の強さによってアニメーションを切り替える
+		if (number > 1500 && number <8000) {//圧力の強さによってアニメーションを切り替える
 			if (anime_flag == 0) {
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
 				animator.Play ("walk");
 				Sounder(4);
-				FlagsOfAnimation_End ();
+			FlagsOfAnimation_End ();
+			DelayMethod (2);
+			Flags_SensorRW = 0;
 			}
-		} else if (number > 3000 && number<6000) {
+		} else if (number > 8000 && number<20000) {
 			if (anime_flag == 0) {
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
 				animator.Play ("run");
 				Sounder(5);
 				FlagsOfAnimation_End ();
+
+			DelayMethod (2);
+			Flags_SensorRW = 0;
+
 			}
-		} else if (number > 6000 && number<9000) {
+		} else if (number >= 20000 && number<35000) {
 			if (anime_flag == 0) {
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
 				animator.Play ("sound");
 				Sounder(3);
 				FlagsOfAnimation_End ();
+
+			DelayMethod (2);
+			Flags_SensorRW = 0;
 			}
-		} else if (number > 9000 && number<41000) {
+		} else if (number >= 35000 && number<175000) {
 			if (anime_flag == 0) {
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
 				animator.Play ("hit");
 				FlagsOfAnimation_End ();
+
+			DelayMethod (2);
+			Flags_SensorRW = 0;
 			}
 		} else {
 			int rand = UnityEngine.Random.Range (0, 20);//ランダムな時間にアニメーション再生（圧力センサが動いていないとき）
 			if (rand==10) {
-				RandomAnimation ();
+				//RandomAnimation ();
 			}else{
+			Flags_SensorRW = 1;
 				serial.Write("0");//Arduinoに0を送信し、LEDを消灯させる
+
+			DelayMethod (2);
+			Flags_SensorRW = 0;
 			}
 		}
 	}
@@ -112,34 +156,54 @@ public class SerialTest2 : MonoBehaviour {
 		rand2 = UnityEngine.Random.Range (0, 4);
 		if (rand2 == 0) {
 			if (anime_flag == 0) {
+
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
 				animator.Play ("sound");
 				Sounder(3);
 				FlagsOfAnimation_End ();
+
+			DelayMethod (2);
+			Flags_SensorRW = 0;
 			}
 		} else if (rand2 == 1) {
-			if (anime_flag == 0) {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("");}else{serial.Write ("5");}
 				animator.Play ("hit");
-				FlagsOfAnimation_End ();
+            FlagsOfAnimation_End ();
+
+            DelayMethod (2);
+            Flags_SensorRW = 0;
 			}
 		} else if (rand2 == 2) {
-			if (anime_flag == 0) {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
 				animator.Play ("walk");
 				Sounder(4);
-				FlagsOfAnimation_End ();
+            FlagsOfAnimation_End ();
+
+            DelayMethod (2);
+            Flags_SensorRW = 0;
 			}
 		} else {
-			if (anime_flag == 0) {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
 				animator.Play ("run");
 				Sounder(5);
-				FlagsOfAnimation_End ();
+            FlagsOfAnimation_End ();
+
+            DelayMethod (2);
+            Flags_SensorRW = 0;
 			}
 		}
 	}
@@ -279,5 +343,13 @@ public class SerialTest2 : MonoBehaviour {
 
 	void OnPlayer5 () {
 		GetComponent<AudioSource>().PlayOneShot(SE5);
+	}
+
+	private IEnumerator DelayMethod(int delayFrameCount)
+	{
+		for (var i = 0; i < delayFrameCount; i++)
+		{
+			yield return null;
+		}
 	}
 }
