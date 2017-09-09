@@ -15,7 +15,7 @@ public class SerialTest3 : MonoBehaviour {
 	int getValue_biglimit;
 	int Sensornumber;
 
-	public AudioClip SE, SE2, SE3, SE4, SE5;
+	public AudioClip SE, SE2, SE3, SE4, SE5, SE6;
 
 	void Start()
 	{

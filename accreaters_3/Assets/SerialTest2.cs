@@ -29,7 +29,7 @@ public class SerialTest2 : MonoBehaviour {
 		serial = new SerialLib.MyClass ("COM6", 9600, 256);
 		serial.ThreadStart ();
 		anime_flag = 0;
-		serial.Write ("1");
+		//serial.Write ("1");
 		//serial_flag = 0;
 		Sensornumber = 0;
 		number = 0;
@@ -41,15 +41,27 @@ public class SerialTest2 : MonoBehaviour {
 
 	void Update()
 	{
+        //DelayMethod (60);
 
+        //DelayMethod (20);
 		//getValue_biglimit = behaviour_key.getBiglimit ();
 		if (Flags_SensorRW == 0) {
+            //serial.Write ("3");
+			SensorReading ();//圧力センサーの値をとってくる
+		} 
+        try{
+        if (anime_flag == 0) {
+            Flags_SensorRW = 1;
             serial.Write ("3");
-			//SensorReading ();//圧力センサーの値をとってくる
-		} else {
-            
+
+            animator.Play ("walk");
+            Debug.Log ("Complete");
+            DelayMethod (60);
+            Flags_SensorRW = 0;
+        }
+        }catch{
+        }
 			//SensorAnimation2(number);
-		}
 		//trytoKey();
 		//toAdults ();
 	}

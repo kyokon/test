@@ -25,6 +25,7 @@ int vsensors[8];
  int flagForPress;
  int flagForAdult;
  int flagMoving;
+ int flagRW;
 
 
 
@@ -77,6 +78,7 @@ void setup() {
   flagForAdult = 0;//大人になっているかどうか
   hantei = 0;
   mode = 0;
+  flagRW = 0; //読み込みと書き込みの入れ替え、Unity To Arduino 1  Arduino To Unity 0
 
 }
 
@@ -376,14 +378,18 @@ void setPress(){
   }
 
   
-    if(mode == 'r'){
+    if(mode == 'r' && flagRW == 0){
        Serial.println(hantei);//最も高い圧力センサーの値
      }
-     if(mode == 't'){
+     if(mode == 't' && flagRW == 0){
         Serial.println(hanteiNumber);//最も値が高かった圧力センサーの番号
      }
     
-   Serial.println(hantei);
+  // if(flagRW == 0){
+    Serial.println(hantei);
+    //Serial.print("\n");
+    //}
+     flagRW = 1;
  //}
  //全ての圧力センサーの値を確認する場合は以下をコメントからはずす
  /*Serial.println(fg[0]);
@@ -452,20 +458,24 @@ void ChangemodePress(){
 }
 
 void loop() {
-   if(Serial.available()){
-    mode = Serial.read();//Unityからの数値読み込み
-    Serial.print(mode);
-   }
 
    setPress();//圧力センサー読み取り
+  
+   if(Serial.available() && flagRW == 1){
+      mode = Serial.read();//Unityからの数値読み込み
+      if(mode != NULL){
+         flagRW =0;
+      }
+    }
+    //Serial.print(mode);
     
   //以下Unity使用時　専用コード
-  if(flagForPress == 0){
+  if(flagForPress == 0 && mode != NULL){
     switch(mode){//圧力センサーから読み込んだ圧力の数値に対して挙動を変える
         case '0' : mode = 0; silent(); break;
-        case '1' : mode = 0; if(flagMoving == 0){normalMode();} flagForPress = 1; break;
+        case '1' : mode = 0; if(flagMoving == 0){normalMode();} flagForPress = 1;break;
         case '2' : mode = 0; if(flagMoving == 0){IdleMode();} flagForPress = 1; break;
-        case '3' : mode = 0; if(flagMoving == 0){childWalkMode();} flagForPress = 1; break;
+        case '3' : mode = 0; if(flagMoving == 0){childWalkMode();} flagForPress = 1;break;
         case '4' : mode = 0; if(flagMoving == 0){childRunMode();} flagForPress = 1; break;
         case '5' : mode = 0; if(flagMoving == 0){childHitMode();} flagForPress = 1; break;
         case '6' : mode = 0; if(flagMoving == 0){childSoundMode();} flagForPress = 1; break;
@@ -491,7 +501,9 @@ hanteiNumber = 0;
 hantei = 0;
   mode = 0;
   flagForPress = 0; 
+         flagRW =0;
   delay(1);
+  Serial.flush();
 }
 
 
