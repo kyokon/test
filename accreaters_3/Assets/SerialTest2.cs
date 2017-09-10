@@ -19,8 +19,10 @@ public class SerialTest2 : MonoBehaviour {
 	int getValue_biglimit;
 	int Sensornumber;
 	int Flags_SensorRW;
+    int  flag_sensorAnimation;
 
 	public AudioClip SE, SE2, SE3, SE4, SE5, SE6;
+    double before_number,try_number;
 	//int serial_flag;
 
 	void Start()
@@ -37,6 +39,9 @@ public class SerialTest2 : MonoBehaviour {
 		rand4 = 0;
 		getValue_biglimit = 0;
 		Flags_SensorRW = 0;
+        before_number = 0;
+        try_number = 0;
+        flag_sensorAnimation = 0;
 	}
 
 	void Update()
@@ -47,30 +52,28 @@ public class SerialTest2 : MonoBehaviour {
 		//getValue_biglimit = behaviour_key.getBiglimit ();
 		if (Flags_SensorRW == 0) {
             //serial.Write ("3");
-			SensorReading ();//圧力センサーの値をとってくる
+            try{
+			    SensorReading ();//圧力センサーの値をとってくる
+
+            }catch{Debug.Log("error"+number);}
 		} 
+
         try{
             Debug.Log(number);
             Debug.Log ("anime_flag"+anime_flag);
             trytoKey();
             toAdults ();
-            SensorAnimation(number);
-            
-            /*if (anime_flag == 0) {
 
-                Flags_SensorRW = 1;
-                serial.Write ("3");
-
-                animator.Play ("hit");
-                Debug.Log ("Complete");
-                DelayMethod (60);
-                Flags_SensorRW = 0;
-            }*/
+            Debug.Log ("flag_sensorAnimation"+flag_sensorAnimation);
+            if(flag_sensorAnimation == 0){
+                SensorAnimation(number);
+            }
         }catch{
         }
 			//SensorAnimation2(number);
 		//trytoKey();
 		//toAdults ();
+        flag_sensorAnimation = 0;
 	}
 
 	void SensorReading(){
@@ -78,19 +81,18 @@ public class SerialTest2 : MonoBehaviour {
 		Debug.Log (serial.GetData ());
 
 		if (serial.GetData () == null) {
-			number = 1.0;
+            try_number = 1.0;
 		} else {
-			number = double.Parse (serial.GetData ());
+            try_number = double.Parse (serial.GetData ());
+            if (try_number != before_number) {
+                number = try_number;
+            } else {
+                flag_sensorAnimation = 1;
+            }
 
+            before_number = try_number;
 		}
 		Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
-
-		/*serial.Write ("t");*/
-		/*if (serial.GetData () == null) {
-			Sensornumber = 1;
-		} else {
-			Sensornumber = int.Parse (serial.GetData ());
-		}*/
 
 	}
 
