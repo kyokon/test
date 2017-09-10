@@ -50,15 +50,22 @@ public class SerialTest2 : MonoBehaviour {
 			SensorReading ();//圧力センサーの値をとってくる
 		} 
         try{
-        if (anime_flag == 0) {
-            Flags_SensorRW = 1;
-            serial.Write ("3");
+            Debug.Log(number);
 
-            animator.Play ("walk");
-            Debug.Log ("Complete");
-            DelayMethod (60);
-            Flags_SensorRW = 0;
-        }
+            Debug.Log ("anime_flag"+anime_flag);
+            trytoKey();
+            //SensorAnimation(number);
+            
+            /*if (anime_flag == 0) {
+
+                Flags_SensorRW = 1;
+                serial.Write ("3");
+
+                animator.Play ("hit");
+                Debug.Log ("Complete");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
+            }*/
         }catch{
         }
 			//SensorAnimation2(number);
@@ -74,6 +81,7 @@ public class SerialTest2 : MonoBehaviour {
 			number = 1.0;
 		} else {
 			number = double.Parse (serial.GetData ());
+
 		}
 		Debug.Log (number);//コンソールに常に読み込んだ圧力センサーの値を表示
 
@@ -86,7 +94,7 @@ public class SerialTest2 : MonoBehaviour {
 
 	}
 
-void SensorAnimation2(double number){
+/*void SensorAnimation2(double number){
 		Flags_SensorRW = 1;
 			FlagsOfAnimation_Start ();
     try{
@@ -100,21 +108,26 @@ void SensorAnimation2(double number){
 
 	DelayMethod (2);
 	Flags_SensorRW = 0;
-}
+}*/
 
 	void SensorAnimation(double number){
-		if (number > 1500 && number <8000) {//圧力の強さによってアニメーションを切り替える
+    
+		if (number > 1500.0 && number <8000.0) {//圧力の強さによってアニメーションを切り替える
+
+        Debug.Log ("Into SensorAnimation");
 			if (anime_flag == 0) {
-			Flags_SensorRW = 1;
-				FlagsOfAnimation_Start ();
-				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
-				animator.Play ("walk");
-				Sounder(4);
-			FlagsOfAnimation_End ();
-			DelayMethod (2);
-			Flags_SensorRW = 0;
-			}
-		} else if (number > 8000 && number<20000) {
+                Flags_SensorRW = 1;
+                serial.Write ("3");
+    				//FlagsOfAnimation_Start ();
+    				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+    				//animator.Play ("walk");
+    				//Sounder(4);
+                //FlagsOfAnimation_End ();
+                DelayMethod (60);
+                Flags_SensorRW = 0;
+		    }
+		} 
+        /*else if (number > 8000 && number<20000) {
 			if (anime_flag == 0) {
 			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
@@ -123,7 +136,7 @@ void SensorAnimation2(double number){
 				Sounder(5);
 				FlagsOfAnimation_End ();
 
-			DelayMethod (2);
+			DelayMethod (60);
 			Flags_SensorRW = 0;
 
 			}
@@ -136,7 +149,7 @@ void SensorAnimation2(double number){
 				Sounder(3);
 				FlagsOfAnimation_End ();
 
-			DelayMethod (2);
+			DelayMethod (60);
 			Flags_SensorRW = 0;
 			}
 		} else if (number >= 35000 && number<175000) {
@@ -147,20 +160,20 @@ void SensorAnimation2(double number){
 				animator.Play ("hit");
 				FlagsOfAnimation_End ();
 
-			DelayMethod (2);
+			DelayMethod (60);
 			Flags_SensorRW = 0;
 			}
-		} else {
-			int rand = UnityEngine.Random.Range (0, 20);//ランダムな時間にアニメーション再生（圧力センサが動いていないとき）
-			if (rand==10) {
-				//RandomAnimation ();
-			}else{
-			Flags_SensorRW = 1;
-				serial.Write("0");//Arduinoに0を送信し、LEDを消灯させる
+		} */else {
+			//rand = UnityEngine.Random.Range (0, 20);//ランダムな時間にアニメーション再生（圧力センサが動いていないとき）
+    			/*if (rand==10) {
+    				//RandomAnimation ();
+    			}else{*/
+    			Flags_SensorRW = 1;
+    			//serial.Write("4");//Arduinoに0を送信し、LEDを消灯させる
 
-			DelayMethod (2);
-			Flags_SensorRW = 0;
-			}
+    			DelayMethod (60);
+    			Flags_SensorRW = 0;
+    			//}
 		}
 	}
 
@@ -176,7 +189,7 @@ void SensorAnimation2(double number){
 				Sounder(3);
 				FlagsOfAnimation_End ();
 
-			DelayMethod (2);
+			DelayMethod (60);
 			Flags_SensorRW = 0;
 			}
 		} else if (rand2 == 1) {
@@ -188,7 +201,7 @@ void SensorAnimation2(double number){
 				animator.Play ("hit");
             FlagsOfAnimation_End ();
 
-            DelayMethod (2);
+            DelayMethod (60);
             Flags_SensorRW = 0;
 			}
 		} else if (rand2 == 2) {
@@ -201,7 +214,7 @@ void SensorAnimation2(double number){
 				Sounder(4);
             FlagsOfAnimation_End ();
 
-            DelayMethod (2);
+            DelayMethod (60);
             Flags_SensorRW = 0;
 			}
 		} else {
@@ -214,7 +227,7 @@ void SensorAnimation2(double number){
 				Sounder(5);
             FlagsOfAnimation_End ();
 
-            DelayMethod (2);
+            DelayMethod (60);
             Flags_SensorRW = 0;
 			}
 		}
@@ -242,49 +255,64 @@ void SensorAnimation2(double number){
 
 	private void trytoKey(){
 		try{
-			if (Input.GetKeyDown(KeyCode.Z)){
+        if (Input.GetKeyDown(KeyCode.Z)){
+            Flags_SensorRW = 1;
 				animator.Play ("Idle");
 				Sounder(1);
 				//serial.Write ("2");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
 				serial.Write ("2");
 				Debug.Log("IdelButtonOn");
+
+                DelayMethod (60);
+                Flags_SensorRW = 0;
 			}
-			if (Input.GetKeyDown(KeyCode.X)){
+        if (Input.GetKeyDown(KeyCode.X)){
+            Flags_SensorRW = 1;
 				animator.Play ("walk");
 				Sounder(4);
-				//serial.Write ("3");
+				serial.Write ("3");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
-				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
 
-				Debug.Log("WalkButtonOn");
+                Debug.Log("WalkButtonOn");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
 			}
-			if (Input.GetKeyDown(KeyCode.C)){
+        if (Input.GetKeyDown(KeyCode.C)){
+            Flags_SensorRW = 1;
 				animator.Play ("run");
 				Sounder(5);
 
-				//serial.Write ("4");
+				serial.Write ("4");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
-				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
-				Debug.Log("RunButtonOn");
+				//if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+                Debug.Log("RunButtonOn");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
 			}
-			if (Input.GetKeyDown(KeyCode.V)){
+        if (Input.GetKeyDown(KeyCode.V)){
+            Flags_SensorRW = 1;
 				animator.Play ("hit");
 
-				//serial.Write ("5");
+				serial.Write ("5");
 				//serial.Write ("2");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
-				if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
-				Debug.Log("HitButtonOn");
+				//if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+                Debug.Log("HitButtonOn");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
 			}
 			if (Input.GetKeyDown(KeyCode.B)){
 				animator.Play ("sound");
 				Sounder(3);
 
-				Debug.Log("SoundButtonOn");
-				//serial.Write ("6");
+				serial.Write ("6");
 				//getValue_biglimit = behaviour_key.getBiglimit ();
-				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+                //if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+                Debug.Log("SoundButtonOn");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
 			}
 			/*if (Input.GetKey(KeyCode.N)){//tamago
 				//animator.Play ("hit");
