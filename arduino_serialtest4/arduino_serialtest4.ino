@@ -386,7 +386,9 @@ void setPress(){
      }
     
   // if(flagRW == 0){
+  if(hantei != NULL){
     Serial.println(hantei);
+  }
     //Serial.print("\n");
     //}
      flagRW = 1;

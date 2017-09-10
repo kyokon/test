@@ -51,10 +51,10 @@ public class SerialTest2 : MonoBehaviour {
 		} 
         try{
             Debug.Log(number);
-
             Debug.Log ("anime_flag"+anime_flag);
             trytoKey();
-            //SensorAnimation(number);
+            toAdults ();
+            SensorAnimation(number);
             
             /*if (anime_flag == 0) {
 
@@ -120,14 +120,14 @@ public class SerialTest2 : MonoBehaviour {
                 serial.Write ("3");
     				//FlagsOfAnimation_Start ();
     				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
-    				//animator.Play ("walk");
-    				//Sounder(4);
+    		    animator.Play ("hit");
+    			Sounder(4);
                 //FlagsOfAnimation_End ();
                 DelayMethod (60);
                 Flags_SensorRW = 0;
 		    }
 		} 
-        /*else if (number > 8000 && number<20000) {
+        else if (number > 8000 && number<20000) {
 			if (anime_flag == 0) {
 			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
@@ -163,7 +163,7 @@ public class SerialTest2 : MonoBehaviour {
 			DelayMethod (60);
 			Flags_SensorRW = 0;
 			}
-		} */else {
+		} else {
 			//rand = UnityEngine.Random.Range (0, 20);//ランダムな時間にアニメーション再生（圧力センサが動いていないとき）
     			/*if (rand==10) {
     				//RandomAnimation ();
