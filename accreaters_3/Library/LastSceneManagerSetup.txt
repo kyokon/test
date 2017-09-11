@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ikimono10_cat.unity
+- path: Assets/Ikimono2sDolphin.unity
   isLoaded: 1
   isActive: 1
