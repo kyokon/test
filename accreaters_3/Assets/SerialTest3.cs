@@ -29,7 +29,7 @@ public class SerialTest3 : MonoBehaviour {
     public bool enableFadeIn = true;
     public bool enableFadeOut = true;
 
-    public float speed = 0.02f;
+    public float speed = 0.01f;
 
     public Image FadeImage;
 
@@ -351,9 +351,9 @@ public class SerialTest3 : MonoBehaviour {
     private void toAdults(){
         if (Input.GetKey (KeyCode.T) && getValue_biglimit == 0) {
             this.transform.localScale = new Vector3 (
-                gameObject.transform.localScale.x + 0.015f,
-                gameObject.transform.localScale.y + 0.015f,
-                gameObject.transform.localScale.z + 0.015f
+                gameObject.transform.localScale.x + 0.01f,
+                gameObject.transform.localScale.y + 0.01f,
+                gameObject.transform.localScale.z + 0.01f
             );
             getValue_biglimit = 1;
             serial.Write ("a");
