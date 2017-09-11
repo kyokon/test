@@ -404,6 +404,7 @@ MonoBehaviour:
   SE3: {fileID: 8300000, guid: 5e1598569a8c83d45b425d5fa2e266df, type: 3}
   SE4: {fileID: 8300000, guid: 508fe8c1a5514954988f3ccb0862bd16, type: 3}
   SE5: {fileID: 8300000, guid: 7b1a6a8792450804892e698fbeaced64, type: 3}
+  SE6: {fileID: 0}
 --- !u!114 &1556341102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,7 +413,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556341100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3715d41e6258a9745a1f11b75a6c624c, type: 3}
+  m_Script: {fileID: 11500000, guid: d2835a68eed100e4390cc0e32a96ef75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1714385901

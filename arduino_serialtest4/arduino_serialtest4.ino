@@ -181,20 +181,11 @@ void childRunMode(){
       delay(2000);
       digitalWrite(vibPin[2], LOW);
       
-     digitalWrite(vibPin[1], HIGH);
+     digitalWrite(vibPin[3], HIGH);
       //pwm.setPWM(1, 2000, 4095);
       delay(500);
-      digitalWrite(vibPin[1], LOW);
+      digitalWrite(vibPin[3], LOW);
       
-     digitalWrite(vibPin[1], HIGH);
-      //pwm.setPWM(1, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[1], LOW);
-      
-     digitalWrite(vibPin[2], HIGH);
-      //pwm.setPWM(4, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[2], LOW);
       
       flagMoving = 0;
 }
@@ -212,15 +203,10 @@ void childHitMode(){
       delay(2000);
       digitalWrite(vibPin[3], LOW);
       
-     digitalWrite(vibPin[1], HIGH);
+     digitalWrite(vibPin[4], HIGH);
       //pwm.setPWM(1, 2000, 4095);
       delay(500);
-      digitalWrite(vibPin[1], LOW);
-      
-     digitalWrite(vibPin[2], HIGH);
-      //pwm.setPWM(4, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[2], LOW);
+      digitalWrite(vibPin[4], LOW);
       
       flagMoving = 0;
 }
@@ -238,10 +224,10 @@ flagMoving = 1;
       delay(2000);
       digitalWrite(vibPin[4], LOW);
       
-     digitalWrite(vibPin[1], HIGH);
+     digitalWrite(vibPin[5], HIGH);
       //pwm.setPWM(1, 2000, 4095);
       delay(500);
-      digitalWrite(vibPin[1], LOW);
+      digitalWrite(vibPin[5], LOW);
       
       flagMoving = 0;
 }
@@ -258,15 +244,22 @@ void AdultWalkMode(){
       delay(2000);
       digitalWrite(vibPin[5], LOW);
       
+     digitalWrite(vibPin[6], HIGH);
+      //pwm.setPWM(1, 2000, 4095);
+      delay(500);
+      digitalWrite(vibPin[6], LOW);
+      
      digitalWrite(vibPin[1], HIGH);
       //pwm.setPWM(1, 2000, 4095);
       delay(500);
       digitalWrite(vibPin[1], LOW);
       
-     digitalWrite(vibPin[2], HIGH);
+      
+     digitalWrite(vibPin[3], HIGH);
       //pwm.setPWM(4, 2000, 4095);
       delay(500);
-      digitalWrite(vibPin[2], LOW);
+      digitalWrite(vibPin[3], LOW);
+      
       
       flagMoving = 0;
 }
@@ -290,6 +283,11 @@ flagMoving = 1;
       //pwm.setPWM(4, 2000, 4095);
       delay(500);
       digitalWrite(vibPin[3], LOW);
+      
+     digitalWrite(vibPin[2], HIGH);
+      //pwm.setPWM(4, 2000, 4095);
+      delay(500);
+      digitalWrite(vibPin[2], LOW);
       
       flagMoving = 0;
 }
@@ -315,6 +313,11 @@ flagMoving = 1;
       delay(500);
       digitalWrite(vibPin[2], LOW);
       
+     digitalWrite(vibPin[3], HIGH);
+      //pwm.setPWM(4, 2000, 4095);
+      delay(500);
+      digitalWrite(vibPin[3], LOW);
+      
       flagMoving = 0;
 }
 
@@ -339,10 +342,11 @@ void AdultSoundMode(){
       digitalWrite(vibPin[2], LOW);
 
       
-     digitalWrite(vibPin[1], HIGH);
-      //pwm.setPWM(0, 2000, 4095);
-      delay(2000);
-      digitalWrite(vibPin[1], LOW);
+     digitalWrite(vibPin[3], HIGH);
+      //pwm.setPWM(4, 2000, 4095);
+      delay(500);
+      digitalWrite(vibPin[3], LOW);
+
       flagMoving = 0;
 }
 

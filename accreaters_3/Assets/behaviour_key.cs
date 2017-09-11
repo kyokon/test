@@ -78,7 +78,4 @@ public class behaviour_key : MonoBehaviour {
 			biglimit = 1;
 		}
 	}*/
-	public static int getBiglimit(){
-		return biglimit;
-	}
 }

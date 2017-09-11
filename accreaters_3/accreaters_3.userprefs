@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialTest2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialTest3.cs">
     <Files>
-      <File FileName="Assets\SerialTest2.cs" Line="76" Column="34" />
-      <File FileName="Assets\SerialTest3.cs" Line="1" Column="1" />
+      <File FileName="Assets\SerialTest2.cs" Line="79" Column="32" />
+      <File FileName="Assets\SerialTest3.cs" Line="13" Column="25" />
       <File FileName="Assets\CameraRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets\behaviour_key.cs" Line="1" Column="1" />
+      <File FileName="Assets\behaviour_key.cs" Line="80" Column="5" />
       <File FileName="Assets\voicescript.cs" Line="1" Column="1" />
       <File FileName="Assets\IkimonoSentaku.cs" Line="1" Column="1" />
     </Files>

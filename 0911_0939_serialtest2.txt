@@ -1,4 +1,4 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -23,34 +23,10 @@ public class SerialTest2 : MonoBehaviour {
 
 	public AudioClip SE, SE2, SE3, SE4, SE5, SE6;
     double before_number,try_number;
-
-    //ä»¥ä¸‹ç”»é¢ãƒ•ã‚§ãƒ¼ãƒ‰ç”¨å¤‰æ•°
-    public bool enableFade = true;
-    public bool enableFadeIn = true;
-    public bool enableFadeOut = true;
-
-    public float speed = 0.02f;
-
-    public Image FadeImage;
-
-    private float count = 1f;
-
-    //private bool enableAlphaTop = false;
-
-    public delegate void FadeOutCallback();
-    public FadeOutCallback fadeoutcallback;
-
-    //ã“ã“ã¾ã§
-    Image image;
 	//int serial_flag;
 
 	void Start()
 	{
-
-        enableFade = true;
-        enableFadeIn = true;
-        setAlpha (FadeImage, count);
-
 		animator = GetComponent<Animator> ();
 		serial = new SerialLib.MyClass ("COM6", 9600, 256);
 		serial.ThreadStart ();
@@ -66,32 +42,20 @@ public class SerialTest2 : MonoBehaviour {
         before_number = 0;
         try_number = 0;
         flag_sensorAnimation = 0;
-
-
-        Debug.Log("OpenMode");
-
-    }
+	}
 
 	void Update()
 	{
-        //Wakeupã‚’è‡ªå‹•ã§å§‹ã‚ã«è¡Œã†
-        if (enableFadeIn) {
-            FadeIn (FadeImage);
-        }
-        //ã“ã“ã¾ã§
-        //ä»¥ä¸‹æŒ¯å‹•å­ãŒå¿…è¦ãªãƒ—ãƒ­ã‚°ãƒ©ãƒ 
-        getValue_biglimit = getBiglimit();//å¤§äººã‹å­ä¾›ã‹åˆ¤æ–­
+        //DelayMethod (60);
 
-        Debug.Log ("getValue_biglimit"+getValue_biglimit);
+        //DelayMethod (20);
+		//getValue_biglimit = behaviour_key.getBiglimit ();
 		if (Flags_SensorRW == 0) {
+            //serial.Write ("3");
             try{
-			    SensorReading ();//åœ§åŠ›ã‚»ãƒ³ã‚µãƒ¼ã®å€¤ã‚’ã¨ã£ã¦ãã‚‹
+			    SensorReading ();//ˆ³—ÍƒZƒ“ƒT[‚Ì’l‚ğ‚Æ‚Á‚Ä‚­‚é
 
-            }
-            catch{
-                Debug.Log("error"+number); 
-                number = 8.10;
-            }
+            }catch{Debug.Log("error"+number);}
 		} 
 
         try{
@@ -106,13 +70,10 @@ public class SerialTest2 : MonoBehaviour {
             }
         }catch{
         }
+			//SensorAnimation2(number);
+		//trytoKey();
+		//toAdults ();
         flag_sensorAnimation = 0;
-
-        //Debug.Log(count); //ãƒ•ã‚§ãƒ¼ãƒ‰ç¢ºèªç”¨
-
-        toWakeUp ();
-
-        toSleeping ();
 	}
 
 	void SensorReading(){
@@ -131,22 +92,39 @@ public class SerialTest2 : MonoBehaviour {
 
             before_number = try_number;
 		}
-		Debug.Log (number);//ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«å¸¸ã«èª­ã¿è¾¼ã‚“ã åœ§åŠ›ã‚»ãƒ³ã‚µãƒ¼ã®å€¤ã‚’è¡¨ç¤º
+		Debug.Log (number);//ƒRƒ“ƒ\[ƒ‹‚Éí‚É“Ç‚İ‚ñ‚¾ˆ³—ÍƒZƒ“ƒT[‚Ì’l‚ğ•\¦
+
 	}
+
+/*void SensorAnimation2(double number){
+		Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+    try{
+			serial.Write ("3");
+    }catch{
+        Debug.Log (number);
+        }
+			animator.Play ("walk");
+			Sounder (4);
+			FlagsOfAnimation_End ();
+
+	DelayMethod (2);
+	Flags_SensorRW = 0;
+}*/
 
 	void SensorAnimation(double number){
     
-		if (number > 1500.0 && number <8000.0) {//åœ§åŠ›ã®å¼·ã•ã«ã‚ˆã£ã¦ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹
+		if (number > 1500.0 && number <8000.0) {//ˆ³—Í‚Ì‹­‚³‚É‚æ‚Á‚ÄƒAƒjƒ[ƒVƒ‡ƒ“‚ğØ‚è‘Ö‚¦‚é
 
         Debug.Log ("Into SensorAnimation");
 			if (anime_flag == 0) {
                 Flags_SensorRW = 1;
-
-                FlagsOfAnimation_Start ();//Today
-    		if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}//Today
+                serial.Write ("3");
+    				//FlagsOfAnimation_Start ();
+    				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
     		    animator.Play ("hit");
     			Sounder(4);
-                FlagsOfAnimation_End ();//Today
+                //FlagsOfAnimation_End ();
                 DelayMethod (60);
                 Flags_SensorRW = 0;
 		    }
@@ -160,58 +138,58 @@ public class SerialTest2 : MonoBehaviour {
 				Sounder(5);
 				FlagsOfAnimation_End ();
 
-			    DelayMethod (60);
-			    Flags_SensorRW = 0;
+			DelayMethod (60);
+			Flags_SensorRW = 0;
 
 			}
 		} else if (number >= 20000 && number<35000) {
 			if (anime_flag == 0) {
-			    Flags_SensorRW = 1;
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
 				animator.Play ("sound");
 				Sounder(3);
 				FlagsOfAnimation_End ();
-			    DelayMethod (60);
-			    Flags_SensorRW = 0;
+
+			DelayMethod (60);
+			Flags_SensorRW = 0;
 			}
 		} else if (number >= 35000 && number<175000) {
 			if (anime_flag == 0) {
-			    Flags_SensorRW = 1;
+			Flags_SensorRW = 1;
 				FlagsOfAnimation_Start ();
 				if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
 				animator.Play ("hit");
 				FlagsOfAnimation_End ();
 
-			    DelayMethod (60);
-			    Flags_SensorRW = 0;
+			DelayMethod (60);
+			Flags_SensorRW = 0;
 			}
 		} else {
-			rand = UnityEngine.Random.Range (0, 20);//ãƒ©ãƒ³ãƒ€ãƒ ãªæ™‚é–“ã«ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³å†ç”Ÿï¼ˆåœ§åŠ›ã‚»ãƒ³ã‚µãŒå‹•ã„ã¦ã„ãªã„ã¨ãï¼‰
-    			if (rand==10) {
-
-                Debug.Log ("Into RandomAnimation");
+			//rand = UnityEngine.Random.Range (0, 20);//ƒ‰ƒ“ƒ_ƒ€‚ÈŠÔ‚ÉƒAƒjƒ[ƒVƒ‡ƒ“Ä¶iˆ³—ÍƒZƒ“ƒT‚ª“®‚¢‚Ä‚¢‚È‚¢‚Æ‚«j
+    			/*if (rand==10) {
     				//RandomAnimation ();
-    			}else{
+    			}else{*/
     			Flags_SensorRW = 1;
+    			//serial.Write("4");//Arduino‚É0‚ğ‘—M‚µALED‚ğÁ“”‚³‚¹‚é
 
     			DelayMethod (60);
     			Flags_SensorRW = 0;
-    			}
+    			//}
 		}
 	}
 
-	void RandomAnimation(){//ï¼”ã¤ã®ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ãƒ©ãƒ³ãƒ€ãƒ ã«é¸æŠå†ç”Ÿ
+	void RandomAnimation(){//‚S‚Â‚ÌƒAƒjƒ[ƒVƒ‡ƒ“‚ğƒ‰ƒ“ƒ_ƒ€‚É‘I‘ğÄ¶
 		rand2 = UnityEngine.Random.Range (0, 4);
 		if (rand2 == 0) {
 			if (anime_flag == 0) {
 
 			Flags_SensorRW = 1;
-			FlagsOfAnimation_Start ();
-			if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
-			animator.Play ("sound");
-			Sounder(3);
-			FlagsOfAnimation_End ();
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+				animator.Play ("sound");
+				Sounder(3);
+				FlagsOfAnimation_End ();
 
 			DelayMethod (60);
 			Flags_SensorRW = 0;
@@ -220,9 +198,9 @@ public class SerialTest2 : MonoBehaviour {
         if (anime_flag == 0) {
 
             Flags_SensorRW = 1;
-			FlagsOfAnimation_Start ();
-			if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
-			animator.Play ("hit");
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("");}else{serial.Write ("5");}
+				animator.Play ("hit");
             FlagsOfAnimation_End ();
 
             DelayMethod (60);
@@ -232,10 +210,10 @@ public class SerialTest2 : MonoBehaviour {
         if (anime_flag == 0) {
 
             Flags_SensorRW = 1;
-			FlagsOfAnimation_Start ();
-			if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
-			animator.Play ("walk");
-			Sounder(4);
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+				animator.Play ("walk");
+				Sounder(4);
             FlagsOfAnimation_End ();
 
             DelayMethod (60);
@@ -245,10 +223,10 @@ public class SerialTest2 : MonoBehaviour {
         if (anime_flag == 0) {
 
             Flags_SensorRW = 1;
-			FlagsOfAnimation_Start ();
-			if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
-			animator.Play ("run");
-			Sounder(5);
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+				animator.Play ("run");
+				Sounder(5);
             FlagsOfAnimation_End ();
 
             DelayMethod (60);
@@ -283,6 +261,8 @@ public class SerialTest2 : MonoBehaviour {
             Flags_SensorRW = 1;
 				animator.Play ("Idle");
 				Sounder(1);
+				//serial.Write ("2");
+				//getValue_biglimit = behaviour_key.getBiglimit ();
 				serial.Write ("2");
 				Debug.Log("IdelButtonOn");
 
@@ -293,7 +273,9 @@ public class SerialTest2 : MonoBehaviour {
             Flags_SensorRW = 1;
 				animator.Play ("walk");
 				Sounder(4);
-				if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+				serial.Write ("3");
+				//getValue_biglimit = behaviour_key.getBiglimit ();
+				//if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
 
                 Debug.Log("WalkButtonOn");
                 DelayMethod (60);
@@ -303,7 +285,10 @@ public class SerialTest2 : MonoBehaviour {
             Flags_SensorRW = 1;
 				animator.Play ("run");
 				Sounder(5);
-				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+
+				serial.Write ("4");
+				//getValue_biglimit = behaviour_key.getBiglimit ();
+				//if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
                 Debug.Log("RunButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -311,34 +296,34 @@ public class SerialTest2 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.V)){
             Flags_SensorRW = 1;
 				animator.Play ("hit");
-				if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+
+				serial.Write ("5");
+				//serial.Write ("2");
+				//getValue_biglimit = behaviour_key.getBiglimit ();
+				//if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
                 Debug.Log("HitButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
 			}
-            if (Input.GetKeyDown(KeyCode.B)){
-                Flags_SensorRW = 1;
+			if (Input.GetKeyDown(KeyCode.B)){
 				animator.Play ("sound");
 				Sounder(3);
-                if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+
+				serial.Write ("6");
+				//getValue_biglimit = behaviour_key.getBiglimit ();
+                //if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
                 Debug.Log("SoundButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
 			}
-			if (Input.GetKey(KeyCode.N)){//tamago
-                Flags_SensorRW = 1;
-				serial.Write ("1");
-                Debug.Log("EGGButtonOn");
-                DelayMethod (60);
-                Flags_SensorRW = 0;
-			}
-            if (Input.GetKey(KeyCode.O)){//Arduino reset
-                Flags_SensorRW = 1;
-                serial.Write ("0");
-                Debug.Log("OFF");
-                DelayMethod (60);
-                Flags_SensorRW = 0;
-			}
+			/*if (Input.GetKey(KeyCode.N)){//tamago
+				//animator.Play ("hit");
+				//	serial.Write ("1");
+				//Debug.Log ("Starta");
+				}
+			    if (Input.GetKey(KeyCode.O)){//tamago
+					//serial.Write ("0");
+				}*/
 		}
 		catch(Exception){
 
@@ -356,35 +341,6 @@ public class SerialTest2 : MonoBehaviour {
 			serial.Write ("a");
 		}
 	}
-
-    private void toSleeping(){
-        if (Input.GetKey (KeyCode.P)) {
-
-            serial.Write ("0");
-            enableFade = true;
-            if (enableFadeOut) {
-                FadeOut (FadeImage);
-            }
-        }
-    }
-
-
-    private void toWakeUp(){
-        if (Input.GetKey (KeyCode.K)) {
-
-            //serial.Write ("0");
-
-            enableFade = true;
-            if (enableFadeIn) {
-                FadeIn (FadeImage);
-            }
-        }
-    }
-
-
-    private int getBiglimit(){
-        return getValue_biglimit;
-    }
 
 	private void Sounder(int soundnumber){
 		rand3 = UnityEngine.Random.Range (0, 2);
@@ -438,43 +394,4 @@ public class SerialTest2 : MonoBehaviour {
 			yield return null;
 		}
 	}
-
-    //ä»¥ä¸‹ç”»é¢ãƒ•ã‚§ãƒ¼ãƒ‰ç”¨é–¢æ•°
-    void setFadeOutCallback (FadeOutCallback fc) {
-        this.fadeoutcallback = fc;      
-    }
-
-    void setAlpha(Image image,float alpha) {
-        image.color = new Color (image.color.r, image.color.g, image.color.b, alpha);
-    }
-
-    public void FadeOut(Image image) {
-        if (enableFade) {
-            count += speed;
-            setAlpha (image, count);
-            if (image.color.a >= 0.98f) {
-
-                enableFade = false;
-                if (enableFadeOut) {
-
-                    Debug.Log("SleepMode");
-                    // if(callback != null) callback ();//ãªã‚“ã‹å‹•ã‹ãªã‹ã£ãŸ
-                } 
-            }
-        }
-    }
-
-    public void FadeIn(Image image) {
-        if (enableFade) {
-            count -= speed;
-            setAlpha (image, count);
-            if (image.color.a <= 0.03f) {
-                enableFade = false;
-                enableFadeIn = false;
-
-                Debug.Log("SleepMode");
-            }
-        }
-    }
-    //ã“ã“ã¾ã§ãƒ•ã‚§ãƒ¼ãƒ‰
 }
