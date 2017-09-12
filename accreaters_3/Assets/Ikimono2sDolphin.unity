@@ -732,7 +732,7 @@ MonoBehaviour:
   SE4: {fileID: 8300000, guid: 8a4a76fdd2eccae4fb058bec50463d12, type: 3}
   SE5: {fileID: 8300000, guid: 0f164d2e8f2285f44adc3bbe3e8a69c6, type: 3}
   SE6: {fileID: 8300000, guid: 57c10cf4cf8e7b448a602502b114d6f5, type: 3}
-  SE7: {fileID: 8300000, guid: 77f77fc15cb5e6a438e5b3020c80c801, type: 3}
+  SE7: {fileID: 0}
   enableFade: 1
   enableFadeIn: 1
   enableFadeOut: 1

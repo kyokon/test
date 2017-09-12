@@ -1,0 +1,122 @@
+void SensorAnimation(double number){
+    
+		if (number > 1500.0 && number <8000.0) {//圧力の強さによってアニメーションを切り替える
+
+        Debug.Log ("Into SensorAnimation");
+			if (anime_flag == 0) {
+                Flags_SensorRW = 1;
+
+                FlagsOfAnimation_Start ();//Today
+    		if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}//Today
+    		    animator.Play ("hit");
+    			Sounder(4);
+                FlagsOfAnimation_End ();//Today
+                DelayMethod (60);
+                Flags_SensorRW = 0;
+		    }
+		} 
+        else if (number > 8000 && number<20000) {
+			if (anime_flag == 0) {
+			Flags_SensorRW = 1;
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+				animator.Play ("run");
+				Sounder(5);
+				FlagsOfAnimation_End ();
+
+			    DelayMethod (60);
+			    Flags_SensorRW = 0;
+
+			}
+		} else if (number >= 20000 && number<35000) {
+			if (anime_flag == 0) {
+			    Flags_SensorRW = 1;
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+				animator.Play ("sound");
+				Sounder(3);
+				FlagsOfAnimation_End ();
+			    DelayMethod (60);
+			    Flags_SensorRW = 0;
+			}
+		} else if (number >= 35000 && number<175000) {
+			if (anime_flag == 0) {
+			    Flags_SensorRW = 1;
+				FlagsOfAnimation_Start ();
+				if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+				animator.Play ("hit");
+				FlagsOfAnimation_End ();
+
+			    DelayMethod (60);
+			    Flags_SensorRW = 0;
+			}
+		} else {
+			rand = UnityEngine.Random.Range (0, 20);//ランダムな時間にアニメーション再生（圧力センサが動いていないとき）
+    			if (rand==10) {
+
+                Debug.Log ("Into RandomAnimation");
+    				//RandomAnimation ();
+    			}else{
+    			Flags_SensorRW = 1;
+
+    			DelayMethod (60);
+    			Flags_SensorRW = 0;
+    			}
+		}
+	}
+
+	void RandomAnimation(){//４つのアニメーションをランダムに選択再生
+		rand2 = UnityEngine.Random.Range (0, 4);
+		if (rand2 == 0) {
+			if (anime_flag == 0) {
+
+			Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+			if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+			animator.Play ("sound");
+			Sounder(3);
+			FlagsOfAnimation_End ();
+
+			DelayMethod (60);
+			Flags_SensorRW = 0;
+			}
+		} else if (rand2 == 1) {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+			if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+			animator.Play ("hit");
+            FlagsOfAnimation_End ();
+
+            DelayMethod (60);
+            Flags_SensorRW = 0;
+			}
+		} else if (rand2 == 2) {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+			if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+			animator.Play ("walk");
+			Sounder(4);
+            FlagsOfAnimation_End ();
+
+            DelayMethod (60);
+            Flags_SensorRW = 0;
+			}
+		} else {
+        if (anime_flag == 0) {
+
+            Flags_SensorRW = 1;
+			FlagsOfAnimation_Start ();
+			if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+			animator.Play ("run");
+			Sounder(5);
+            FlagsOfAnimation_End ();
+
+            DelayMethod (60);
+            Flags_SensorRW = 0;
+			}
+		}
+	}
