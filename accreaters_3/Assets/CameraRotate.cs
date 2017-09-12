@@ -19,11 +19,11 @@ public class CameraRotate : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetKey (KeyCode.A) && lrflags > -15) {
+        if (Input.GetKey (KeyCode.D) && lrflags > -15) {
 			transform.Rotate (new Vector3 (0, -1, 0));
 			lrflags -= 1;
 		}
-		if (Input.GetKey (KeyCode.D) && lrflags < 15) {
+        if (Input.GetKey (KeyCode.A) && lrflags < 15) {
 			transform.Rotate (new Vector3 (0, 1, 0));
 			lrflags += 1;
 		}

@@ -736,6 +736,7 @@ MonoBehaviour:
   enableFade: 1
   enableFadeIn: 1
   enableFadeOut: 1
+  enableFadeOn: 1
   speed: 0.02
   FadeImage: {fileID: 1666109154}
 --- !u!114 &1722707496
