@@ -91,44 +91,43 @@ void normalMode(){
     Set_PWM();
     
      digitalWrite(vibPin[0], HIGH);
-      //pwm.setPWM(0, 2000, 4095);
-      delay(500);
+     
+     digitalWrite(vibPin[1], HIGH);
+     
+      delay(100);
       digitalWrite(vibPin[0], LOW);
       
-     digitalWrite(vibPin[1], HIGH);
-      //pwm.setPWM(1, 2000, 4095);
-      delay(500);
       digitalWrite(vibPin[1], LOW);
       
-     digitalWrite(vibPin[2], HIGH);
-      //pwm.setPWM(4, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[2], LOW);
-      
-     digitalWrite(vibPin[3], HIGH);
-      //pwm.setPWM(5, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[3], LOW);
-
-     digitalWrite(vibPin[4], HIGH);
-      //pwm.setPWM(8, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[4], LOW);
-      
-     digitalWrite(vibPin[5], HIGH);
-      //pwm.setPWM(9, 2000, 4095);
-      delay(500);
-      digitalWrite(vibPin[5], LOW);
       
      digitalWrite(vibPin[6], HIGH);
-      //pwm.setPWM(12, 2000, 4095);
-      delay(500);
+
+      digitalWrite(vibPin[7], HIGH);
+     
+      delay(100);
       digitalWrite(vibPin[6], LOW);
     
-      digitalWrite(vibPin[7], HIGH);
-      //pwm.setPWM(13, 2000, 4095);
-      delay(500);
       digitalWrite(vibPin[7], LOW);
+      
+      
+     digitalWrite(vibPin[2], HIGH);
+
+     digitalWrite(vibPin[3], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[2], LOW);
+      
+      digitalWrite(vibPin[3], LOW);
+      
+
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+
+      delay(100);
+      digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
 
       flagMoving = 0;
 }
@@ -157,14 +156,54 @@ void childWalkMode(){
     Set_PWM();
     
     
-     digitalWrite(vibPin[1], HIGH);
-      delay(2000);
-      digitalWrite(vibPin[1], LOW);
+     digitalWrite(vibPin[2], HIGH);
+     
+     digitalWrite(vibPin[3], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[2], LOW);
+      
+      digitalWrite(vibPin[3], LOW);
+
+      delay(200);
+
+      
+    
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
+
+
+      delay(200);
       
      digitalWrite(vibPin[2], HIGH);
-      //pwm.setPWM(4, 2000, 4095);
-      delay(500);
+     
+     digitalWrite(vibPin[3], HIGH);
+     
+      delay(100);
       digitalWrite(vibPin[2], LOW);
+      
+      digitalWrite(vibPin[3], LOW);
+
+      
+
+      delay(200);
+
+
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
+      
       
       flagMoving = 0;
 }
@@ -176,16 +215,90 @@ void childRunMode(){
     Set_PWM();
     
     
+     digitalWrite(vibPin[0], HIGH);
+     
+     digitalWrite(vibPin[1], HIGH);
+    
      digitalWrite(vibPin[2], HIGH);
-      //pwm.setPWM(0, 2000, 4095);
-      delay(2000);
+     
+     digitalWrite(vibPin[3], HIGH);
+     
+      delay(100);
+
+      digitalWrite(vibPin[0], LOW);
+      
+      digitalWrite(vibPin[1], LOW);
+      
       digitalWrite(vibPin[2], LOW);
       
-     digitalWrite(vibPin[3], HIGH);
-      //pwm.setPWM(1, 2000, 4095);
-      delay(500);
       digitalWrite(vibPin[3], LOW);
+
+      delay(200);
+
       
+    
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+     
+     digitalWrite(vibPin[6], HIGH);
+     
+     digitalWrite(vibPin[7], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
+      
+      digitalWrite(vibPin[6], LOW);
+      
+      digitalWrite(vibPin[7], LOW);
+
+
+
+      delay(200);
+      
+    
+     digitalWrite(vibPin[0], HIGH);
+     
+     digitalWrite(vibPin[1], HIGH);
+    
+     digitalWrite(vibPin[2], HIGH);
+     
+     digitalWrite(vibPin[3], HIGH);
+     
+      delay(100);
+
+      digitalWrite(vibPin[0], LOW);
+      
+      digitalWrite(vibPin[1], LOW);
+      
+      digitalWrite(vibPin[2], LOW);
+      
+      digitalWrite(vibPin[3], LOW);
+
+      delay(200);
+
+      
+
+      delay(200);
+
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+     
+     digitalWrite(vibPin[6], HIGH);
+     
+     digitalWrite(vibPin[7], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
+      
+      digitalWrite(vibPin[6], LOW);
+      
+      digitalWrite(vibPin[7], LOW);
       
       flagMoving = 0;
 }
@@ -197,16 +310,24 @@ void childHitMode(){
     
     Set_PWM();
     
+      
     
+     digitalWrite(vibPin[2], HIGH);
+     
      digitalWrite(vibPin[3], HIGH);
-      //pwm.setPWM(0, 2000, 4095);
-      delay(2000);
+     
+     digitalWrite(vibPin[4], HIGH);
+     
+     digitalWrite(vibPin[5], HIGH);
+     
+      delay(100);
+      digitalWrite(vibPin[2], LOW);
+      
       digitalWrite(vibPin[3], LOW);
       
-     digitalWrite(vibPin[4], HIGH);
-      //pwm.setPWM(1, 2000, 4095);
-      delay(500);
       digitalWrite(vibPin[4], LOW);
+      
+      digitalWrite(vibPin[5], LOW);
       
       flagMoving = 0;
 }
@@ -219,16 +340,46 @@ flagMoving = 1;
    Set_PWM();
     
     
+    
+     digitalWrite(vibPin[2], HIGH);
+     
+     digitalWrite(vibPin[3], HIGH);
+     
      digitalWrite(vibPin[4], HIGH);
-      //pwm.setPWM(0, 2000, 4095);
-      delay(2000);
+     
+     digitalWrite(vibPin[5], HIGH);
+
+     
+      delay(200);
+      
+     digitalWrite(vibPin[0], HIGH);
+     
+     digitalWrite(vibPin[1], HIGH);
+     
+     digitalWrite(vibPin[6], HIGH);
+     
+     digitalWrite(vibPin[7], HIGH);
+     
+      delay(200);
+      
+      digitalWrite(vibPin[2], LOW);
+      
+      digitalWrite(vibPin[3], LOW);
+      
       digitalWrite(vibPin[4], LOW);
       
-     digitalWrite(vibPin[5], HIGH);
-      //pwm.setPWM(1, 2000, 4095);
-      delay(500);
       digitalWrite(vibPin[5], LOW);
+
+      delay(200);
       
+      digitalWrite(vibPin[0], LOW);
+      
+      digitalWrite(vibPin[1], LOW);
+      
+      digitalWrite(vibPin[6], LOW);
+      
+      digitalWrite(vibPin[7], LOW);
+    
       flagMoving = 0;
 }
 

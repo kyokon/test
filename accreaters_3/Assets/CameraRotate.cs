@@ -37,7 +37,7 @@ public class CameraRotate : MonoBehaviour
 		}
 
 		//bool isPush = Input.GetMouseButton( 0 ); 
-		if (Input.GetKey(KeyCode.M)){
+        if (Input.GetKey(KeyCode.E)){
 			// 移動量 
 			transform.rotation = Quaternion.Euler(0, 0, 0);
 			updownflags = 0;

@@ -21,19 +21,23 @@ public class SerialTest2 : MonoBehaviour {
 	int Flags_SensorRW;
     int  flag_sensorAnimation;
 
-	public AudioClip SE, SE2, SE3, SE4, SE5, SE6;
+	public AudioClip SE, SE2, SE3, SE4, SE5, SE6, SE7;
     double before_number,try_number;
 
     //以下画面フェード用変数
     public bool enableFade = true;
     public bool enableFadeIn = true;
     public bool enableFadeOut = true;
+    public bool enableFadeOn = true;
 
     public float speed = 0.01f;
 
     public Image FadeImage;
 
     private float count = 1f;
+
+
+    private bool enableAlphaTop = true;
 
     //private bool enableAlphaTop = false;
 
@@ -43,6 +47,7 @@ public class SerialTest2 : MonoBehaviour {
     //ここまで
     Image image;
 	//int serial_flag;
+    int flag_fadeon;
 
 	void Start()
 	{
@@ -66,7 +71,7 @@ public class SerialTest2 : MonoBehaviour {
         before_number = 0;
         try_number = 0;
         flag_sensorAnimation = 0;
-
+        flag_fadeon = 0;
 
         Debug.Log("OpenMode");
 
@@ -113,14 +118,26 @@ public class SerialTest2 : MonoBehaviour {
         toWakeUp ();
 
         toSleeping ();
+
+
+        Debug.Log ("UpdateFade"+flag_fadeon);
+
+        if(flag_fadeon == 1){
+
+            if (enableFadeOn) {
+
+                Debug.Log ("WorkingFadeOn");
+                FadeInAndOut (FadeImage);
+            }
+        }
 	}
 
 	void SensorReading(){
 		//serial.Write ("r");
-		Debug.Log (serial.GetData ());
+		//Debug.Log (serial.GetData ());
 
 		if (serial.GetData () == null) {
-            try_number = 1.0;
+            try_number = 8.10;
 		} else {
             try_number = double.Parse (serial.GetData ());
             if (try_number != before_number) {
@@ -346,7 +363,7 @@ public class SerialTest2 : MonoBehaviour {
 	}
 
 	private void toAdults(){
-		if (Input.GetKey (KeyCode.T) && getValue_biglimit == 0) {
+		if (Input.GetKeyDown (KeyCode.T) && getValue_biglimit == 0) {
 			this.transform.localScale = new Vector3 (
 				gameObject.transform.localScale.x + 0.01f,
 				gameObject.transform.localScale.y + 0.01f,
@@ -354,6 +371,10 @@ public class SerialTest2 : MonoBehaviour {
 			);
 			getValue_biglimit = 1;
 			serial.Write ("a");
+            flag_fadeon = 1;
+            Debug.Log (flag_fadeon);
+
+            enableFade = true;
 		}
 	}
 
@@ -388,7 +409,7 @@ public class SerialTest2 : MonoBehaviour {
 
 	private void Sounder(int soundnumber){
 		rand3 = UnityEngine.Random.Range (0, 2);
-		if (rand3 == 1) {
+        if (rand3 == 1) {
 			switch (soundnumber) {
 			case '1':
 				OnPlayer (); break;
@@ -455,7 +476,9 @@ public class SerialTest2 : MonoBehaviour {
             if (image.color.a >= 0.98f) {
 
                 enableFade = false;
+                GetComponent<AudioSource>().PlayOneShot(SE7);
                 if (enableFadeOut) {
+
 
                     Debug.Log("SleepMode");
                     // if(callback != null) callback ();//なんか動かなかった
@@ -472,9 +495,44 @@ public class SerialTest2 : MonoBehaviour {
                 enableFade = false;
                 enableFadeIn = false;
 
-                Debug.Log("SleepMode");
+                Debug.Log("WakeUpMode");
             }
         }
     }
+
+    void FadeInAndOut(Image image) {
+
+        if (enableFade) {
+            if (!enableAlphaTop) {
+                count -= speed;
+
+                if (image.color.a <= 0.05f) {
+                    enableFade = false;
+                    enableFadeIn = false;
+                    enableFadeOn = false;
+                    flag_fadeon = 0;
+
+                    Debug.Log("flag_fadeon"+flag_fadeon);
+                }
+
+                Debug.Log ("FadeonCountS" + count);
+               
+            } else {
+
+                count += speed;
+                Debug.Log ("FadeonCount" + count);
+                if (image.color.a >= 0.97f) {
+                    enableFade = true;
+                    enableFadeOn = true;
+                    enableAlphaTop = false;
+                }
+            }
+            setAlpha (image, count);
+            if (image.color.a <= 0.03f) {
+                enableAlphaTop = true;
+            }
+        }
+    }
+
     //ここまでフェード
 }

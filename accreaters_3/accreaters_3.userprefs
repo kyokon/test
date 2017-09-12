@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialTest2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SerialTest3.cs">
     <Files>
-      <File FileName="Assets\SerialTest2.cs" Line="408" Column="5" />
-      <File FileName="Assets\SerialTest3.cs" Line="356" Column="57" />
-      <File FileName="Assets\CameraRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\SerialTest2.cs" Line="498" Column="41" />
+      <File FileName="Assets\SerialTest3.cs" Line="333" Column="39" />
+      <File FileName="Assets\CameraRotate.cs" Line="34" Column="53" />
       <File FileName="Assets\behaviour_key.cs" Line="1" Column="1" />
       <File FileName="Assets\voicescript.cs" Line="1" Column="1" />
       <File FileName="Assets\IkimonoSentaku.cs" Line="1" Column="1" />
+      <File FileName="..\..\2646d8afd02db4ef635612df8135981e-00952adaa8065b4db34f474f03ca5f2556616e91\FadeManager.cs" Line="15" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
