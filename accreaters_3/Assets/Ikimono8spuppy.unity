@@ -123,15 +123,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96be5bbf11abf644fa18ac3fddeb094f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SE: {fileID: 8300000, guid: e66e86d20bc8b5b44b12bc2f15a1798f, type: 3}
-  SE2: {fileID: 8300000, guid: fd4c4fa8c43bbd3468aa79c5b1e07912, type: 3}
-  SE3: {fileID: 8300000, guid: 5e1598569a8c83d45b425d5fa2e266df, type: 3}
-  SE4: {fileID: 8300000, guid: 508fe8c1a5514954988f3ccb0862bd16, type: 3}
-  SE5: {fileID: 8300000, guid: 7b1a6a8792450804892e698fbeaced64, type: 3}
-  SE6: {fileID: 0}
+  SE: {fileID: 8300000, guid: bb3bf82ee19825642a135460cf1a31ca, type: 3}
+  SE2: {fileID: 8300000, guid: 982b7de64adc9cf49a0f9c4649869582, type: 3}
+  SE3: {fileID: 8300000, guid: d53017232c00aae429e142447e1d5f65, type: 3}
+  SE4: {fileID: 8300000, guid: 11677cae037db8a4ebcb276fafc020e5, type: 3}
+  SE5: {fileID: 8300000, guid: 3e504f93cff5f9f4fbd4048f3128c652, type: 3}
+  SE6: {fileID: 8300000, guid: ee14487c61e41014db062c591148487e, type: 3}
+  SE7: {fileID: 8300000, guid: 11677cae037db8a4ebcb276fafc020e5, type: 3}
+  SE8: {fileID: 8300000, guid: bb3bf82ee19825642a135460cf1a31ca, type: 3}
+  SE9: {fileID: 8300000, guid: 0a55b10cab7f0f848b94fad89ee15662, type: 3}
   enableFade: 1
   enableFadeIn: 1
   enableFadeOut: 1
+  enableFadeOn: 1
   speed: 0.02
   FadeImage: {fileID: 1570108857}
 --- !u!114 &390007919

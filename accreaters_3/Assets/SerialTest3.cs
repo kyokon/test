@@ -22,7 +22,7 @@ public class SerialTest3 : MonoBehaviour {
     int  flag_sensorAnimation;
     int ArduinoStartEnd;
 
-    public AudioClip SE, SE2, SE3, SE4, SE5, SE6, SE7;
+    public AudioClip SE, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9;
     double before_number,try_number;
 
     //以下画面フェード用変数
@@ -40,6 +40,7 @@ public class SerialTest3 : MonoBehaviour {
 
     private bool enableAlphaTop = true;
 
+
     //ここまで
     Image image;
     //int serial_flag;
@@ -56,8 +57,6 @@ public class SerialTest3 : MonoBehaviour {
         serial = new SerialLib.MyClass ("COM6", 9600, 256);
         serial.ThreadStart ();
         anime_flag = 0;
-        //serial.Write ("1");
-        //serial_flag = 0;
         Sensornumber = 0;
         number = 0;
         rand3 = 0;
@@ -68,7 +67,7 @@ public class SerialTest3 : MonoBehaviour {
         try_number = 0;
         flag_sensorAnimation = 0;
         flag_fadeon = 0;
-        ArduinoStartEnd = 1;
+        ArduinoStartEnd = 0;
 
         Debug.Log("OpenMode");
 
@@ -151,7 +150,6 @@ public class SerialTest3 : MonoBehaviour {
     }
 
 
-
     void FlagsOfAnimation_Start(){
         if(anime_flag == 0){
             anime_flag = 1;
@@ -187,9 +185,11 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.X) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("walk");
-                Sounder(4);
-                if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
-
+                if(getValue_biglimit == 1){
+                    serial.Write ("7");GetComponent<AudioSource>().PlayOneShot(SE);
+                }else{
+                    serial.Write ("3");GetComponent<AudioSource>().PlayOneShot(SE);
+                }
                 Debug.Log("WalkButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -197,8 +197,11 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.C) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("run");
-                Sounder(5);
-                if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("8");GetComponent<AudioSource>().PlayOneShot(SE2);
+                }else{
+                    serial.Write ("4");GetComponent<AudioSource>().PlayOneShot(SE2);
+                }
                 Debug.Log("RunButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -206,7 +209,11 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.V) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("hit");
-                if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("9");GetComponent<AudioSource>().PlayOneShot(SE3);
+                }else{
+                    serial.Write ("5");GetComponent<AudioSource>().PlayOneShot(SE3);
+                }
                 Debug.Log("HitButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -214,28 +221,25 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.B) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("sound");
-                Sounder(3);
-                if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("s");GetComponent<AudioSource>().PlayOneShot(SE4);
+                }else{
+                    serial.Write ("6");GetComponent<AudioSource>().PlayOneShot(SE4);
+                }
                 Debug.Log("SoundButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
-            //以下怒り
-            if (Input.GetKeyDown(KeyCode.G) && (ArduinoStartEnd == 1)){
-                Flags_SensorRW = 1;
-                animator.Play ("Idle");
-                Sounder(1);
-                serial.Write ("2");
-                Debug.Log("IdelButtonOn");
 
-                DelayMethod (60);
-                Flags_SensorRW = 0;
-            }
+            //以下怒り
             if (Input.GetKeyDown(KeyCode.H) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("walk");
-                Sounder(4);
-                if(getValue_biglimit == 1){serial.Write ("7");}else{serial.Write ("3");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("i");GetComponent<AudioSource>().PlayOneShot(SE5);
+                }else{
+                    serial.Write ("r");GetComponent<AudioSource>().PlayOneShot(SE5);
+                }
 
                 Debug.Log("WalkButtonOn");
                 DelayMethod (60);
@@ -244,8 +248,12 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.J) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("run");
-                Sounder(5);
-                if(getValue_biglimit == 1){serial.Write ("8");}else{serial.Write ("4");}
+
+                if(getValue_biglimit == 1){
+                    serial.Write ("o");GetComponent<AudioSource>().PlayOneShot(SE6);
+                }else{
+                    serial.Write ("t");GetComponent<AudioSource>().PlayOneShot(SE6);
+                }
                 Debug.Log("RunButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -253,7 +261,11 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.K) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("hit");
-                if(getValue_biglimit == 1){serial.Write ("9");}else{serial.Write ("5");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("p");GetComponent<AudioSource>().PlayOneShot(SE7);
+                }else{
+                    serial.Write ("y");GetComponent<AudioSource>().PlayOneShot(SE7);
+                }
                 Debug.Log("HitButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
@@ -262,12 +274,20 @@ public class SerialTest3 : MonoBehaviour {
                 Flags_SensorRW = 1;
                 animator.Play ("sound");
                 Sounder(3);
-                if(getValue_biglimit == 1){serial.Write ("s");}else{serial.Write ("6");}
+                if(getValue_biglimit == 1){
+                    serial.Write ("l");GetComponent<AudioSource>().PlayOneShot(SE8);
+                }else{
+                    serial.Write ("u");GetComponent<AudioSource>().PlayOneShot(SE8);
+                }
                 Debug.Log("SoundButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
-            if (Input.GetKey(KeyCode.N) && (ArduinoStartEnd == 1)){//tamago
+            //ここまで
+            if (Input.GetKey(KeyCode.N)){//tamago
+                ArduinoStartEnd = 1;
+                serial.Write ("k");
+                DelayMethod (60);
                 Flags_SensorRW = 1;
                 serial.Write ("1");
                 Debug.Log("EGGButtonOn");
@@ -306,10 +326,8 @@ public class SerialTest3 : MonoBehaviour {
 
     private void toSleeping(){
         if (Input.GetKey (KeyCode.P)) {
-            serial.Write ("0");
-            ArduinoStartEnd = 0;
-
             serial.Write ("e");
+            ArduinoStartEnd = 0;
 
             enableFade = true;
             if (enableFadeOut) {
@@ -320,7 +338,7 @@ public class SerialTest3 : MonoBehaviour {
 
 
     private void toWakeUp(){
-        if (Input.GetKey (KeyCode.K)) {
+        if (Input.GetKey (KeyCode.M)) {
 
             //serial.Write ("0");
 
@@ -337,7 +355,7 @@ public class SerialTest3 : MonoBehaviour {
     }
 
     private void Sounder(int soundnumber){
-        rand3 = UnityEngine.Random.Range (0, 2);
+        rand3 = UnityEngine.Random.Range (0, 1);
         if (rand3 == 1) {
             switch (soundnumber) {
             case '1':
@@ -357,7 +375,7 @@ public class SerialTest3 : MonoBehaviour {
     }
 
     void OnPlayer () {
-        rand4 = UnityEngine.Random.Range (0, 5);
+        rand4 = UnityEngine.Random.Range (0, 7);
         if ((rand4 == 1) && (ArduinoStartEnd == 1)) {
             GetComponent<AudioSource> ().PlayOneShot (SE);
         } else if ((rand4 == 5) && (ArduinoStartEnd == 1)) {
@@ -403,7 +421,7 @@ public class SerialTest3 : MonoBehaviour {
             if (image.color.a >= 0.98f) {
 
                 enableFade = false;
-                GetComponent<AudioSource>().PlayOneShot(SE7);
+                //GetComponent<AudioSource>().PlayOneShot(SE7);
                 if (enableFadeOut) {
 
 

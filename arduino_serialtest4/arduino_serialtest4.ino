@@ -109,7 +109,7 @@ void setup() {
   hantei = 0;
   mode = 0;
   flagRW = 0; //読み込みと書き込みの入れ替え、Unity To Arduino 1  Arduino To Unity 0
-   ArduinoStartEnd = 1;
+   ArduinoStartEnd = 0;
 
 }
 
@@ -316,6 +316,23 @@ void childRun2Mode(){
     digitalWrite(vibPin[5], LOW);
     digitalWrite(vibPin[6], LOW);
     digitalWrite(vibPin[7], LOW);
+      
+      flagMoving = 0;
+}
+
+void childHitMode(){
+  flagMoving = 1;
+    Set_PWM();
+    digitalWrite(vibPin[2], HIGH);
+    digitalWrite(vibPin[3], HIGH);
+    digitalWrite(vibPin[4], HIGH);
+    digitalWrite(vibPin[5], HIGH);
+     
+      delay(100);
+    digitalWrite(vibPin[2], LOW);
+    digitalWrite(vibPin[3], LOW);
+    digitalWrite(vibPin[4], LOW);
+    digitalWrite(vibPin[5], LOW);
       
       flagMoving = 0;
 }
@@ -795,17 +812,18 @@ void loop() {
         case '8' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultRunMode();} flagForPress = 1; break;
         case '9' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultHitMode();} flagForPress = 1; break;
         case 's' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultSoundMode();} flagForPress = 1; break;
-        case 'q' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childWalk2Mode();} flagForPress = 1;break;
-        case 'w' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childRun2Mode();} flagForPress = 1; break;
-        case 'e' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childHit2Mode();} flagForPress = 1; break;
-        case 'r' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childSound2Mode();} flagForPress = 1; break;
-        case 't' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultWalk2Mode();} flagForPress = 1; break;
-        case 'y' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultRun2Mode();} flagForPress = 1; break;
-        case 'u' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultHit2Mode();} flagForPress = 1; break;
-        case 'i' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultSound2Mode();} flagForPress = 1; break;
+        case 'r' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childWalk2Mode();} flagForPress = 1;break;
+        case 't' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childRun2Mode();} flagForPress = 1; break;
+        case 'y' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childHit2Mode();} flagForPress = 1; break;
+        case 'u' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){childSound2Mode();} flagForPress = 1; break;
+        case 'i' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultWalk2Mode();} flagForPress = 1; break;
+        case 'o' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultRun2Mode();} flagForPress = 1; break;
+        case 'p' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultHit2Mode();} flagForPress = 1; break;
+        case 'l' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultSound2Mode();} flagForPress = 1; break;
         case 'a' : flagForAdult = 1; break;
         case 'f' : Serial.flush(); break;
-        case 'e' : ArduinoStartEnd = 0; break;
+        case 'e' : ArduinoStartEnd = 0; mode = 0; break;
+        case 'k' : ArduinoStartEnd = 1; mode = 0; break; 
         default: silent(); //数値がなければ圧力センサーの値によって動きを変える
     }
   }

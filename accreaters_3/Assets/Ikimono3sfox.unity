@@ -637,8 +637,10 @@ MonoBehaviour:
   SE3: {fileID: 8300000, guid: b11b79fb6c7628f4f98239c9ab48c67b, type: 3}
   SE4: {fileID: 8300000, guid: a699dcfb38e05bd44a91f9ebf6a71206, type: 3}
   SE5: {fileID: 8300000, guid: 999261e5bd5c74b4d955cfb50634b9d7, type: 3}
-  SE6: {fileID: 0}
-  SE7: {fileID: 8300000, guid: 77f77fc15cb5e6a438e5b3020c80c801, type: 3}
+  SE6: {fileID: 8300000, guid: 8f4c0118d1c0bb740a896049925ab55e, type: 3}
+  SE7: {fileID: 8300000, guid: 08e735ebbaa50774aa9fe17fc231add1, type: 3}
+  SE8: {fileID: 8300000, guid: ad3a4acc4cca05c4e83c1b02ec215729, type: 3}
+  SE9: {fileID: 8300000, guid: 0a55b10cab7f0f848b94fad89ee15662, type: 3}
   enableFade: 1
   enableFadeIn: 1
   enableFadeOut: 1
