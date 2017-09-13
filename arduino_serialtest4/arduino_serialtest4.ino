@@ -43,28 +43,28 @@ void software_reset(){
 //PWM_SetUp
 void Set_PWM(){
 
-    pwm.setPWM(0, 2000, 4095);
-    pwm.setPWM(2, 2000, 4095);
-    pwm.setPWM(4, 2000, 4095);
-    pwm.setPWM(6, 2000, 4095);
-    pwm.setPWM(8, 2000, 4095);
-    pwm.setPWM(10, 2000, 4095);
-    pwm.setPWM(12, 2000, 4095);
-    pwm.setPWM(14, 2000, 4095);
-    
+    pwm.setPWM(0, 1500, 4095);
+    pwm.setPWM(2, 1500, 4095);
+    pwm.setPWM(4, 1500, 4095);
+    pwm.setPWM(6, 1500, 4095);
+    pwm.setPWM(8, 1500, 4095);
+    pwm.setPWM(10, 1500, 4095);
+    pwm.setPWM(12, 1500, 4095);
+    pwm.setPWM(14, 1500, 4095);
+   
 }
 
 
 void Set_PWM2(){
 
-    pwm.setPWM(0, 1000, 4095);
-    pwm.setPWM(2, 1000, 4095);
-    pwm.setPWM(4, 1000, 4095);
-    pwm.setPWM(6, 1000, 4095);
-    pwm.setPWM(8, 1000, 4095);
-    pwm.setPWM(10, 1000, 4095);
-    pwm.setPWM(12, 1000, 4095);
-    pwm.setPWM(14, 1000, 4095);
+    pwm.setPWM(0, 500, 4095);
+    pwm.setPWM(2, 500, 4095);
+    pwm.setPWM(4, 500, 4095);
+    pwm.setPWM(6, 500, 4095);
+    pwm.setPWM(8, 500, 4095);
+    pwm.setPWM(10, 500, 4095);
+    pwm.setPWM(12, 500, 4095);
+    pwm.setPWM(14, 500, 4095);
     
 }
 
@@ -85,6 +85,8 @@ void Set_PWM3(){
 
 
 void setup() {
+  
+  Serial.begin(9600);
   for(int j=0; j<8; j++){
     pinMode(vibPin[j], OUTPUT);
   }
@@ -100,7 +102,6 @@ void setup() {
     pwm.setPWM(14, 2000, 4095);
   pwm.begin();
   pwm.setPWMFreq(500);
-  Serial.begin(9600);
   R1 = 5.1;
   flagForPress = 0;//圧力センサーによる振動が可能かどうか、Unityからの信号を優先
   flagMoving = 0;//振動子が動いているかどうか
@@ -145,20 +146,71 @@ void normalMode(){
       flagMoving = 0;
 }
 
+void EGGMode(){
+    flagMoving = 1;
+    Set_PWM3();
+    
+    digitalWrite(vibPin[0], HIGH);
+    digitalWrite(vibPin[5], HIGH); 
+      delay(200);
+    digitalWrite(vibPin[0], LOW);
+    digitalWrite(vibPin[5], LOW);  
+    
+      delay(600);
+    
+    digitalWrite(vibPin[4], HIGH);
+      delay(200);
+    digitalWrite(vibPin[7], HIGH);
+      delay(200);
+    digitalWrite(vibPin[4], LOW);
+     delay(200);
+    digitalWrite(vibPin[7], LOW);
 
+     delay(600);
+    
+    
+    Set_PWM();
+    digitalWrite(vibPin[6], HIGH);
+    digitalWrite(vibPin[0], HIGH);
+      delay(200);
+    digitalWrite(vibPin[6], LOW);
+    digitalWrite(vibPin[0], LOW);
+    
+    digitalWrite(vibPin[4], HIGH);
+    digitalWrite(vibPin[5], HIGH);
+      delay(200);
+    digitalWrite(vibPin[4], LOW);
+    digitalWrite(vibPin[5], LOW);
 
+    digitalWrite(vibPin[1], HIGH);
+    digitalWrite(vibPin[3], HIGH);
+      delay(200);
+    digitalWrite(vibPin[1], LOW);
+    digitalWrite(vibPin[3], LOW);
+    
+    digitalWrite(vibPin[2], HIGH);
+    digitalWrite(vibPin[7], HIGH);
+      delay(200);
+    digitalWrite(vibPin[2], LOW);
+    digitalWrite(vibPin[7], LOW);
+
+      flagMoving = 0;
+}
 
 void IdleMode(){
 flagMoving = 1;
     Set_PWM();
-    digitalWrite(vibPin[0], HIGH);
-    digitalWrite(vibPin[1], HIGH);
-    digitalWrite(vibPin[0], HIGH); 
-    digitalWrite(vibPin[1], HIGH);
-      delay(2000);
-    digitalWrite(vibPin[0], LOW);
-    digitalWrite(vibPin[1], LOW);
-
+   digitalWrite(vibPin[2], HIGH);
+    digitalWrite(vibPin[3], HIGH);
+      delay(100);
+    digitalWrite(vibPin[2], LOW);
+    digitalWrite(vibPin[3], LOW);
+      delay(200);
+    digitalWrite(vibPin[4], HIGH);
+    digitalWrite(vibPin[5], HIGH);
+      delay(100);
+    digitalWrite(vibPin[4], LOW); 
+    digitalWrite(vibPin[5], LOW);
       flagMoving = 0;
 }
 
@@ -196,7 +248,6 @@ void childWalkMode(){
 }
 
 
-
 void childWalk2Mode(){
   flagMoving = 1;
     Set_PWM();
@@ -223,8 +274,7 @@ void childWalk2Mode(){
       delay(100);
     digitalWrite(vibPin[4], LOW);
     digitalWrite(vibPin[5], LOW);
-      
-      
+    
       flagMoving = 0;
 }
 void childRunMode(){
@@ -820,6 +870,7 @@ void loop() {
         case 'o' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultRun2Mode();} flagForPress = 1; break;
         case 'p' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultHit2Mode();} flagForPress = 1; break;
         case 'l' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){AdultSound2Mode();} flagForPress = 1; break;
+        case 'g' : mode = 0; if((flagMoving == 0)&& (ArduinoStartEnd == 1)){EGGMode();} flagForPress = 1; break;
         case 'a' : flagForAdult = 1; break;
         case 'f' : Serial.flush(); break;
         case 'e' : ArduinoStartEnd = 0; mode = 0; break;

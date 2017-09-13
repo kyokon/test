@@ -175,10 +175,9 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Z) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("Idle");
-                Sounder(1);
+                OnPlayer ();
                 serial.Write ("2");
                 Debug.Log("IdelButtonOn");
-
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
@@ -273,7 +272,6 @@ public class SerialTest3 : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.L) && (ArduinoStartEnd == 1)){
                 Flags_SensorRW = 1;
                 animator.Play ("sound");
-                Sounder(3);
                 if(getValue_biglimit == 1){
                     serial.Write ("l");GetComponent<AudioSource>().PlayOneShot(SE8);
                 }else{
@@ -284,24 +282,37 @@ public class SerialTest3 : MonoBehaviour {
                 Flags_SensorRW = 0;
             }
             //ここまで
-            if (Input.GetKey(KeyCode.N)){//tamago
+            if (Input.GetKeyDown(KeyCode.N)){//ArduinoOpen
                 ArduinoStartEnd = 1;
+                Flags_SensorRW = 1;
                 serial.Write ("k");
                 DelayMethod (60);
+                Debug.Log("OpenButtonOn");
+                Flags_SensorRW = 0;
+            } 
+            if (Input.GetKeyDown(KeyCode.G)){//たまごわれる
+                ArduinoStartEnd = 1;
                 Flags_SensorRW = 1;
-                serial.Write ("1");
+                serial.Write ("g");
                 Debug.Log("EGGButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
-            if (Input.GetKey(KeyCode.O)){//Arduino reset
+            if (Input.GetKeyDown(KeyCode.M)){//こどう
+                ArduinoStartEnd = 1;
+                Flags_SensorRW = 1;
+                serial.Write ("1");
+                Debug.Log("HeartOn");
+                DelayMethod (60);
+                Flags_SensorRW = 0;
+            }
+            if (Input.GetKeyDown(KeyCode.O)){//Arduino reset
                 Flags_SensorRW = 1;
                 serial.Write ("0");
                 Debug.Log("OFF");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
-
         }
         catch(Exception){
 
@@ -338,7 +349,7 @@ public class SerialTest3 : MonoBehaviour {
 
 
     private void toWakeUp(){
-        if (Input.GetKey (KeyCode.M)) {
+        if (Input.GetKey (KeyCode.R)) {
 
             //serial.Write ("0");
 
@@ -375,10 +386,10 @@ public class SerialTest3 : MonoBehaviour {
     }
 
     void OnPlayer () {
-        rand4 = UnityEngine.Random.Range (0, 7);
-        if ((rand4 == 1) && (ArduinoStartEnd == 1)) {
+        rand4 = UnityEngine.Random.Range (0, 20);
+        if ((rand4 == 2) && (ArduinoStartEnd == 1)) {
             GetComponent<AudioSource> ().PlayOneShot (SE);
-        } else if ((rand4 == 5) && (ArduinoStartEnd == 1)) {
+        } else if ((rand4 == 8) && (ArduinoStartEnd == 1)) {
             GetComponent<AudioSource> ().PlayOneShot (SE6);
         }
     }

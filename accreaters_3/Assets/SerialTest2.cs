@@ -178,7 +178,6 @@ public class SerialTest2 : MonoBehaviour {
                 OnPlayer ();
                 serial.Write ("2");
                 Debug.Log("IdelButtonOn");
-
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
@@ -283,21 +282,27 @@ public class SerialTest2 : MonoBehaviour {
                 Flags_SensorRW = 0;
             }
             //ここまで
-            if (Input.GetKeyDown(KeyCode.N)){//tamago
+            if (Input.GetKeyDown(KeyCode.N)){//ArduinoOpen
                 ArduinoStartEnd = 1;
+                Flags_SensorRW = 1;
                 serial.Write ("k");
                 DelayMethod (60);
+                Debug.Log("OpenButtonOn");
+                Flags_SensorRW = 0;
+            } 
+            if (Input.GetKeyDown(KeyCode.G)){//たまごわれる
+                ArduinoStartEnd = 1;
                 Flags_SensorRW = 1;
-                serial.Write ("1");
+                serial.Write ("g");
                 Debug.Log("EGGButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
-            if (Input.GetKeyDown(KeyCode.G)){//tamago
+            if (Input.GetKeyDown(KeyCode.M)){//こどう
+                ArduinoStartEnd = 1;
                 Flags_SensorRW = 1;
                 serial.Write ("1");
-                GetComponent<AudioSource>().PlayOneShot(SE9);
-                Debug.Log("EGGButton2On");
+                Debug.Log("EGGButtonOn");
                 DelayMethod (60);
                 Flags_SensorRW = 0;
             }
@@ -345,7 +350,7 @@ public class SerialTest2 : MonoBehaviour {
 
 
     private void toWakeUp(){
-        if (Input.GetKey (KeyCode.M)) {
+        if (Input.GetKey (KeyCode.R)) {
 
             //serial.Write ("0");
 

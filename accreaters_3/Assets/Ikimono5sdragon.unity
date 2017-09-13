@@ -198,7 +198,7 @@ MonoBehaviour:
   SE5: {fileID: 8300000, guid: 29d71713668921048bedc392678afe25, type: 3}
   SE6: {fileID: 8300000, guid: af87552173bd32b4d8e8b0c4d16df3b7, type: 3}
   SE7: {fileID: 8300000, guid: 526f0b1a614a21642984180cc170c280, type: 3}
-  SE8: {fileID: 8300000, guid: 1119d2f3d2e273741b9b4ad347692245, type: 3}
+  SE8: {fileID: 8300000, guid: f27d838edd6e609449ca7512c20f518d, type: 3}
   SE9: {fileID: 8300000, guid: 0a55b10cab7f0f848b94fad89ee15662, type: 3}
   enableFade: 1
   enableFadeIn: 1
